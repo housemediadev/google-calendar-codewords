@@ -31,8 +31,8 @@ This visual enhancement helps identify event types at a glance.
 | ![baseball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_baseball_1x.jpg) | ![basketball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_basketball_1x.jpg) |
 | **bmx**                       | **bowling**                  |
 | ![bmx](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cyclingbmx_1x.jpg) | ![bowling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bowling_1x.jpg) |
-| **boxing**                    | **competitive shooting**     |
-| ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![competitive shooting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_shooting_1x.jpg) |
+| **boxing**                    | **shooting**     |
+| ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![shooting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_shooting_1x.jpg) |
 | **cycling**                   | **wrestling**                |
 | ![cycling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![wrestling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_wrestling_1x.jpg) |
 | **field hockey**              | **golf**                     |
@@ -45,8 +45,8 @@ This visual enhancement helps identify event types at a glance.
 | ![rugby](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_rugbysevens_1x.jpg) | ![soccer](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_soccer_1x.jpg) |
 | **swimming**                  | **table tennis**             |
 | ![swimming](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_swimming_1x.jpg) | ![table tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_pingpong_1x.jpg) |
-| **tennis**                    | **track and field**          |
-| ![tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_tennis_1x.jpg) | ![track and field](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_running_1x.jpg) |
+| **tennis**                    | **running**                  |
+| ![tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_tennis_1x.jpg) | ![running](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_running_1x.jpg) |
 | **volleyball**                |
 | ![volleyball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_volleyball_1x.jpg) |
 
