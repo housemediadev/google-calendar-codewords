@@ -31,8 +31,8 @@ This visual enhancement helps identify event types at a glance.
 | ![baseball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_baseball_1x.jpg) | ![basketball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_basketball_1x.jpg) |
 | **bmx**                       | **bowling**                  |
 | ![bmx](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cyclingbmx_1x.jpg) | ![bowling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bowling_1x.jpg) |
-| **boxing**                    | **competitive shooting**     |
-| ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![competitive shooting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_shooting_1x.jpg) |
+| **boxing**                    | **shooting**     |
+| ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![shooting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_shooting_1x.jpg) |
 | **cycling**                   | **wrestling**                |
 | ![cycling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![wrestling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_wrestling_1x.jpg) |
 | **field hockey**              | **golf**                     |
@@ -45,37 +45,34 @@ This visual enhancement helps identify event types at a glance.
 | ![rugby](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_rugbysevens_1x.jpg) | ![soccer](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_soccer_1x.jpg) |
 | **swimming**                  | **table tennis**             |
 | ![swimming](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_swimming_1x.jpg) | ![table tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_pingpong_1x.jpg) |
-| **tennis**                    | **track and field**          |
-| ![tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_tennis_1x.jpg) | ![track and field](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_running_1x.jpg) |
+| **tennis**                    | **running**                  |
+| ![tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_tennis_1x.jpg) | ![running](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_running_1x.jpg) |
 | **volleyball**                |
 | ![volleyball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_volleyball_1x.jpg) |
 
 ### Activities and Trades
 
-| Image                         | Image                         |
+|                          |                          |
 |-------------------------------|-------------------------------|
-| **auto maintenance**          | **baby shower**               |
-| ![auto maintenance](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_autorepair_1x.jpg) | ![baby shower](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_babyshower_1x.jpg) |
-| **bachelorette party**        | **barbecue**                  |
-| ![bachelorette party](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bachelorette_1x.jpg) | ![barbecue](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_barbecue_1x.jpg) |
-| **board game**                | **camping**                   |
-| ![board game](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boardgames_1x.jpg) | ![camping](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_camping_1x.jpg) |
-| **cleaning**                  | **coding time**               |
-| ![cleaning](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cleaning_1x.jpg) | ![coding time](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_coding_1x.jpg) |
+| **car maintenance**           | **baby shower**               |
+| ![car maintenance](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) | ![baby shower](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_babyshower_1x.jpg) |
+| **drinks**                    | **barbecue**                  |
+| ![drinks](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_drinks_1x.jpg) | ![barbecue](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bbq_1x.jpg) |
+| **game night**                | **camping**                   |
+| ![game night](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_gamenight_1x.jpg) | ![camping](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_camping_1x.jpg) |
+| **clean**                     | **coding**                    |
+| ![clean](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_clean_1x.jpg) | ![coding](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_code_1x.jpg) |
 | **cooking**                   | **cycling**                   |
 | ![cooking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cooking_1x.jpg) | ![cycling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) |
 | **diy**                       | **dog walking**               |
-| ![diy](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_diy_1x.jpg) | ![dog walking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dogwalking_1x.jpg) |
-| **drawing workshop**          | **electrician**               |
-| ![drawing workshop](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_drawingworkshop_1x.jpg) | ![electrician](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_electrician_1x.jpg) |
-| **family meal**               | **fitness class**             |
-| ![family meal](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_familymeal_1x.jpg) | ![fitness class](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_fitnessclass_1x.jpg) |
-| **gardening**                 | **handyman**                  |
-| ![gardening](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_gardening_1x.jpg) | ![handyman](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_handyman_1x.jpg) |
-| **knitting**                  | **painting**                  |
-| ![knitting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_knitting_1x.jpg) | ![painting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_painting_1x.jpg) |
-| **plumber**                   | **sewing**                    |
-| ![plumber](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_plumber_1x.jpg) | ![sewing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_sewing_1x.jpg) |
+| ![diy](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_repair_1x.jpg) | ![dog walking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_walkingdog_1x.jpg) |
+| **art**                       | **repair**                    |
+| ![art](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_art_1x.jpg) | ![repair](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_repair_1x.jpg) |
+| **dinner**                    | **gym**                       |
+| ![dinner](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dinner_1x.jpg) | ![gym](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_gym_1x.jpg) |
+| **handcraft**                 |                               |
+| ![handcraft](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_handcraft_1x.jpg) |                               |
+
 
 ### Celebrations
 
