@@ -24,15 +24,16 @@ This visual enhancement helps identify event types at a glance.
 | Image                         | Image                         |
 |-------------------------------|-------------------------------|
 | **american football**         | **archery**                  |
-| ![image1](path/to/image1.png) | ![image2](path/to/image2.png) |
+| ![american football](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_americanfootball_1x.jpg) | ![archery](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_archery_1x.jpg) |
 | **artistic gymnastics**       | **badminton**                |
-| ![image3](path/to/image3.png) | ![image4](path/to/image4.png) |
+| ![artistic gymnastics](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_artisticgymnastics_1x.jpg) | ![badminton](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_badminton_1x.jpg) |
 | **baseball**                  | **basketball**               |
-| ![image5](path/to/image5.png) | ![image6](path/to/image6.png) |
+| ![baseball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_baseball_1x.jpg) | ![basketball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_basketball_1x.jpg) |
 | **bmx**                       | **bowling**                  |
-| ![image7](path/to/image7.png) | ![image8](path/to/image8.png) |
+| ![bmx](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cyclingbmx_1x.jpg) | ![bowling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bowling_1x.jpg) |
 | **boxing**                    | **competitive shooting**     |
-| ![image9](path/to/image9.png) | ![image10](path/to/image10.png) |
+| ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![competitive shooting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_shooting_1x.jpg) |
+
 
 ### Outdoor Activities
 
