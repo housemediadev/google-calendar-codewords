@@ -21,7 +21,7 @@ This visual enhancement helps identify event types at a glance.
 
 ### Sports
 
-| Image                         | Image                         |
+|                          |                          |
 |-------------------------------|-------------------------------|
 | **american football**         | **archery**                  |
 | ![american football](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_americanfootball_1x.jpg) | ![archery](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_archery_1x.jpg) |
@@ -33,24 +33,22 @@ This visual enhancement helps identify event types at a glance.
 | ![bmx](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cyclingbmx_1x.jpg) | ![bowling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bowling_1x.jpg) |
 | **boxing**                    | **competitive shooting**     |
 | ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![competitive shooting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_shooting_1x.jpg) |
-| **cycling**                   | **diving**                   |
-| ![cycling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![diving](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_diving_1x.jpg) |
+| **cycling**                   | **wrestling**                |
+| ![cycling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![wrestling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_wrestling_1x.jpg) |
 | **field hockey**              | **golf**                     |
 | ![field hockey](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_fieldhockey_1x.jpg) | ![golf](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_golf_1x.jpg) |
 | **handball**                  | **hiking**                   |
 | ![handball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_handball_1x.jpg) | ![hiking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_hiking_1x.jpg) |
-| **judo**                      | **kayaking**                 |
-| ![judo](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_judo_1x.jpg) | ![kayaking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_kayaking_1x.jpg) |
-| **martial arts**              | **rugby**                    |
-| ![martial arts](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_martialarts_1x.jpg) | ![rugby](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_rugby_1x.jpg) |
-| **soccer**                    | **swimming**                 |
-| ![soccer](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_soccer_1x.jpg) | ![swimming](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_swimming_1x.jpg) |
-| **synchronized swimming**     | **table tennis**             |
-| ![synchronized swimming](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_synchronizedswimming_1x.jpg) | ![table tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_tabletennis_1x.jpg) |
+| **karate**                    | **kayaking**                 |
+| ![karate](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_karate_1x.jpg) | ![kayaking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_kayaking_1x.jpg) |
+| **rugby**                     | **soccer**                   |
+| ![rugby](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_rugbysevens_1x.jpg) | ![soccer](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_soccer_1x.jpg) |
+| **swimming**                  | **table tennis**             |
+| ![swimming](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_swimming_1x.jpg) | ![table tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_pingpong_1x.jpg) |
 | **tennis**                    | **track and field**          |
-| ![tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_tennis_1x.jpg) | ![track and field](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_trackandfield_1x.jpg) |
-| **volleyball**                | **wrestling**                |
-| ![volleyball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_volleyball_1x.jpg) | ![wrestling](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_wrestling_1x.jpg) |
+| ![tennis](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_tennis_1x.jpg) | ![track and field](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_running_1x.jpg) |
+| **volleyball**                |
+| ![volleyball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_volleyball_1x.jpg) |
 
 ### Activities and Trades
 
