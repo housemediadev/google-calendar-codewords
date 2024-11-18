@@ -1,6 +1,6 @@
 <h1 align="center">Google Calendar Codewords</h1>
 <p align="center">
-  ![Screenshot from 2024-11-18 14-52-33](https://github.com/user-attachments/assets/444b12f8-2354-42c2-91bf-3b265969793f)
+  <img src=https://github.com/user-attachments/assets/444b12f8-2354-42c2-91bf-3b265969793f >
 </p>
 
 ## Usage
