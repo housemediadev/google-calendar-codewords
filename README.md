@@ -1,4 +1,4 @@
-<h1 align="center">Google Calendar Codewords</h1>
+<h1 align="center"> <img width=32 src=https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_18_2x.png > Google Calendar Codewords</h1>
 <p align="center">
   <img src=https://github.com/user-attachments/assets/444b12f8-2354-42c2-91bf-3b265969793f >
 </p>
@@ -37,16 +37,18 @@ This visual enhancement helps identify event types at a glance.
 
 ### Outdoor Activities
 
+### Activities
+
 | Image                         | Image                         |
 |-------------------------------|-------------------------------|
 | **auto maintenance**          | **back to school**           |
-| ![image1](path/to/image1.png) | ![image2](path/to/image2.png) |
+| ![auto maintenance](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) | ![back to school](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backtoschool_1x.jpg) |
 | **bicycle**                   | **boat cruise**              |
-| ![image3](path/to/image3.png) | ![image4](path/to/image4.png) |
+| ![bicycle](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![boat cruise](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_sailing_1x.jpg) |
 | **camping**                   | **canoe**                    |
-| ![image5](path/to/image5.png) | ![image6](path/to/image6.png) |
-| **climbing**                  | **fishing**                  |
-| ![image7](path/to/image7.png) | ![image8](path/to/image8.png) |
+| ![camping](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_camping_1x.jpg) | ![canoe](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_kayaking_1x.jpg) |
+| **climbing**                  | |
+| ![climbing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_climbing_1x.jpg) |
 
 ### Holidays
 
