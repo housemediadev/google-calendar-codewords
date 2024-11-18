@@ -97,7 +97,7 @@ This visual enhancement helps identify event types at a glance.
 | Image                         | Image                         |
 |-------------------------------|-------------------------------|
 | **concert**                   | **hackathon**                 |
-| ![concert](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_concert_1x.jpg) | ![hackathon](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_hackathon_1x.jpg) |
+| ![concert](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_concert_1x.jpg) | ![hackathon](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_code_1x.jpg) |
 | **movie**                     | **theater**                   |
 | ![movie](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_movie_1x.jpg) | ![theater](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_theater_1x.jpg) |
 
@@ -106,7 +106,7 @@ This visual enhancement helps identify event types at a glance.
 | Image                         | Image                         |
 |-------------------------------|-------------------------------|
 | **art workshop**              | **classical music**           |
-| ![art workshop](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_artworkshop_1x.jpg) | ![classical music](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_classicalmusic_1x.jpg) |
+| ![art workshop](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_art_1x.jpg) | ![classical music](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_learninstrument_1x.jpg) |
 | **guitar lesson**             | **music class**               |
 | ![guitar lesson](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_guitarlesson_1x.jpg) | ![music class](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_musicclass_1x.jpg) |
 | **orchestra**                 | **violin**                    |
@@ -117,7 +117,7 @@ This visual enhancement helps identify event types at a glance.
 | Image                         | Image                         |
 |-------------------------------|-------------------------------|
 | **coffee**                    | **nap**                       |
-| ![coffee](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_coffee_1x.jpg) | ![nap](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_nap_1x.jpg) |
+| ![coffee](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_coffee_1x.jpg) | ![nap](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_sleep_1x.jpg) |
 | **workout**                   |                               |
 | ![workout](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_workout_1x.jpg) |                               |
 
