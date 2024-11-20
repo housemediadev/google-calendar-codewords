@@ -25,49 +25,49 @@ This visual enhancement helps identify event types at a glance.
   ### A
   | **AGDQ** | **Aikido** | **all hallows' eve** | **all saints' eve** |
   |----------|------------|-----------------------|----------------------|
-  | ![AGDQ](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_agdq_1x.jpg) | ![Aikido](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_aikido_1x.jpg) | ![all hallows' eve](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_allhallows_eve_1x.jpg) | ![all saints' eve](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_allsaintseve_1x.jpg) |
+  | ![AGDQ](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_videogaming_1x.jpg) | ![Aikido](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_karate_1x.jpg) | ![all hallows' eve](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_halloween_1x.jpg) | ![all saints' eve](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_halloween_1x.jpg) |
 
   | **allhalloween** | **american football** | **archery** | **art workshop** |
   |------------------|-----------------------|-------------|------------------|
-  | ![allhalloween](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_allhalloween_1x.jpg) | ![american football](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_americanfootball_1x.jpg) | ![archery](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_archery_1x.jpg) | ![art workshop](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_artworkshop_1x.jpg) |
+  | ![allhalloween](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_halloween_1x.jpg) | ![american football](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_americanfootball_1x.jpg) | ![archery](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_archery_1x.jpg) | ![art workshop](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_art_1x.jpg) |
 
   | **art workshops** | **artistic gymnastics** | **auto maintenance** | **auto mechanic** |
   |-------------------|-------------------------|-----------------------|-------------------|
-  | ![art workshops](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_artworkshops_1x.jpg) | ![artistic gymnastics](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_artisticgymnastics_1x.jpg) | ![auto maintenance](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_automaintenance_1x.jpg) | ![auto mechanic](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_automechanic_1x.jpg) |
+  | ![art workshops](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_art_1x.jpg) | ![artistic gymnastics](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_artisticgymnastics_1x.jpg) | ![auto maintenance](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) | ![auto mechanic](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) |
 
   | **auto repair** | **baby shower** | **babyshower** | **bachelorette party** |
   |-----------------|-----------------|----------------|------------------------|
-  | ![auto repair](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_autorepair_1x.jpg) | ![baby shower](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_babyshower_1x.jpg) | ![babyshower](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_babyshower_1x.jpg) | ![bachelorette party](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bacheloretteparty_1x.jpg) |
+  | ![auto repair](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) | ![baby shower](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_babyshower_1x.jpg) | ![babyshower](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_babyshower_1x.jpg) | ![bachelorette party](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_drinks_1x.jpg) |
 
   | **back 2 school** | **back rub** | **back to school** | **back2school** |
   |-------------------|-------------|---------------------|-----------------|
-  | ![back 2 school](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_back2school_1x.jpg) | ![back rub](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backrub_1x.jpg) | ![back to school](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backtoschool_1x.jpg) | ![back2school](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_back2school_1x.jpg) |
+  | ![back 2 school](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backtoschool_1x.jpg) | ![back rub](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_massage_1x.jpg) | ![back to school](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backtoschool_1x.jpg) | ![back2school](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backtoschool_1x.jpg) |
 
   | **backrub** | **backtoschool** | **badminton** | **ballet** |
   |-------------|------------------|---------------|------------|
-  | ![backrub](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backrub_1x.jpg) | ![backtoschool](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backtoschool_1x.jpg) | ![badminton](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_badminton_1x.jpg) | ![ballet](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_ballet_1x.jpg) |
+  | ![backrub](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_massage_1x.jpg) | ![backtoschool](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_backtoschool_1x.jpg) | ![badminton](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_badminton_1x.jpg) | ![ballet](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dancing_1x.jpg) |
 
   ### B
   | **barbecue** | **barbeque** | **baseball** | **basketball** |
   |--------------|-------------|--------------|----------------|
-  | ![barbecue](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_barbecue_1x.jpg) | ![barbeque](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_barbeque_1x.jpg) | ![baseball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_baseball_1x.jpg) | ![basketball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_basketball_1x.jpg) |
+  | ![barbecue](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bbq_1x.jpg) | ![barbeque](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bbq_1x.jpg) | ![baseball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_baseball_1x.jpg) | ![basketball](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_basketball_1x.jpg) |
 
   | **bbq** | **beer** | **beers** | **bicycle** |
   |--------|----------|-----------|-------------|
-  | ![bbq](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bbq_1x.jpg) | ![beer](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_beer_1x.jpg) | ![beers](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_beers_1x.jpg) | ![bicycle](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bicycle_1x.jpg) |
+  | ![bbq](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bbq_1x.jpg) | ![beer](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_beer_1x.jpg) | ![beers](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_beer_1x.jpg) | ![bicycle](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bicycle_1x.jpg) |
 
   | **bicycles** | **bike** | **bikes** | **biking** |
   |--------------|----------|-----------|------------|
-  | ![bicycles](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bicycles_1x.jpg) | ![bike](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bike_1x.jpg) | ![bikes](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bikes_1x.jpg) | ![biking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_biking_1x.jpg) |
+  | ![bicycles](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![bike](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![bikes](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) | ![biking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cycling_1x.jpg) |
 
   | **billiard** | **birthday** | **bmx** | **board game** |
   |--------------|-------------|---------|----------------|
-  | ![billiard](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_billiard_1x.jpg) | ![birthday](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_birthday_1x.jpg) | ![bmx](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_bmx_1x.jpg) | ![board game](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boardgame_1x.jpg) |
+  | ![billiard](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_billiard_1x.jpg) | ![birthday](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_birthday_1x.jpg) | ![bmx](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cyclingbmx_1x.jpg) | ![board game](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_gamenight_1x.jpg) |
 
   ### C
   | **boxing** | **camping** | **car maintenance** | **car mechanic** |
   |------------|-------------|---------------------|------------------|
-  | ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![camping](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_camping_1x.jpg) | ![car maintenance](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) | ![car mechanic](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmechanic_1x.jpg) |
+  | ![boxing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_boxing_1x.jpg) | ![camping](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_camping_1x.jpg) | ![car maintenance](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) | ![car mechanic](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_carmaintenance_1x.jpg) |
 
   | **car wash** | **cardio** | **celebration** | **charity** |
   |--------------|-----------|----------------|-------------|
@@ -75,11 +75,11 @@ This visual enhancement helps identify event types at a glance.
 
   | **checkup** | **chess** | **christmas** | **cleaning** |
   |-------------|----------|--------------|-------------|
-  | ![checkup](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_checkup_1x.jpg) | ![chess](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_chess_1x.jpg) | ![christmas](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_christmas_1x.jpg) | ![cleaning](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cleaning_1x.jpg) |
+  | ![checkup](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_checkup_1x.jpg) | ![chess](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_chess_1x.jpg) | ![christmas](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_xmas_1x.jpg) | ![cleaning](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cleaning_1x.jpg) |
 
   | **climbing** | **cocktail** | **coffee** | **cooking** |
   |--------------|-------------|-----------|-------------|
-  | ![climbing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_climbing_1x.jpg) | ![cocktail](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cocktail_1x.jpg) | ![coffee](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_coffee_1x.jpg) | ![cooking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cooking_1x.jpg) |
+  | ![climbing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_climbing_1x.jpg) | ![cocktail](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_drinks_1x.jpg) | ![coffee](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_coffee_1x.jpg) | ![cooking](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_cooking_1x.jpg) |
 
   | **costume party** | **cycling** | **dancing** | **darts** |
   |-------------------|------------|------------|----------|
@@ -88,7 +88,7 @@ This visual enhancement helps identify event types at a glance.
   ### D
   | **date** | **dental check** | **dental hygiene** | **dentist** |
   |----------|------------------|--------------------|------------|
-  | ![date](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_date_1x.jpg) | ![dental check](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dentalcheck_1x.jpg) | ![dental hygiene](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dentalhygiene_1x.jpg) | ![dentist](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dentist_1x.jpg) |
+  | ![date](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_date_1x.jpg) | ![dental check](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dentist_1x.jpg) | ![dental hygiene](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dentist_1x.jpg) | ![dentist](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_dentist_1x.jpg) |
 
   | **doctor** | **drawing** | **driving** | **exercise** |
   |------------|------------|-------------|-------------|
@@ -96,12 +96,12 @@ This visual enhancement helps identify event types at a glance.
 
   | **face painting** | **fencing** | **festival** | **fishing** |
   |-------------------|------------|-------------|-------------|
-  | ![face painting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_facepainting_1x.jpg) | ![fencing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_fencing_1x.jpg) | ![festival](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_festival_1x.jpg) | ![fishing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_fishing_1x.jpg) |
+  | ![face painting](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_art_1x.jpg) | ![fencing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_fencing_1x.jpg) | ![festival](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_festival_1x.jpg) | ![fishing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_fishing_1x.jpg) |
 
   ### E
   | **embroidery** | **English class** | **equestrian** | **eventing** |
   |----------------|------------------|---------------|--------------|
-  | ![embroidery](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_embroidery_1x.jpg) | ![English class](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_englishclass_1x.jpg) | ![equestrian](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_equestrian_1x.jpg) | ![eventing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_eventing_1x.jpg) |
+  | ![embroidery](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_handcraft_1x.jpg) | ![English class](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_englishclass_1x.jpg) | ![equestrian](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_equestrian_1x.jpg) | ![eventing](https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_eventing_1x.jpg) |
 
   | **exercise** | **extreme sports** | **eyewear** | **electronics** |
   |--------------|-------------------|-------------|----------------|
