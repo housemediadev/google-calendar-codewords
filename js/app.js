@@ -24,8 +24,8 @@ class KeywordExplorer {
   }
 
   async loadKeywords() {
-    const enResponse = await fetch('js/keywords_en.json');
-    const esResponse = await fetch('js/keywords_es.json');
+    const enResponse = await fetch('locale/keywords_en.json');
+    const esResponse = await fetch('locale/keywords_es.json');
     this.keywordsData.en = await enResponse.json();
     this.keywordsData.es = await esResponse.json();
   }
