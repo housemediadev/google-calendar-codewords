@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Calendar Keywords Explorer</title>
+  <title data-i18n="app.title">Google Calendar Keywords Explorer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -12,9 +12,12 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-      <a class="navbar-brand" href="#">Google Calendar Codewords</a>
+      <a class="navbar-brand" href="#" data-i18n="app.title">Google Calendar Codewords</a>
       <div class="d-flex">
-        <button class="btn btn-outline-light me-2" id="toggleLang">EN/ES</button>
+        <select class="form-select me-2" id="langSelect">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
       </div>
     </div>
   </nav>
@@ -24,7 +27,7 @@
       <div class="col-md-8 mx-auto">
         <div class="search-container mb-4">
           <input type="text" id="searchInput" class="form-control form-control-lg"
-            placeholder="Buscar palabras clave...">
+            data-i18n="[placeholder]app.searchPlaceholder" placeholder="Search keywords...">
         </div>
 
         <div class="keywords-container">
@@ -50,9 +53,15 @@
     </div>
   </template>
 
+  <!-- i18next dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/i18next@23.8.2/dist/umd/i18next.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.4.3/i18nextHttpBackend.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.2.0/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+
+  <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script src="./locale/keywords_en.json"></script>
+  <!-- Application -->
   <script src="./js/app.js"></script>
 </body>
 
