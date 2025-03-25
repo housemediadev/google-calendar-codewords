@@ -1,6 +1,8 @@
+const BASE_IMAGE_URL = 'https://ssl.gstatic.com/calendar/images/eventillustrations/v1/';
+
 class KeywordExplorer {
   constructor() {
-    this.currentLang = 'es';
+    this.currentLang = 'en';
     this.searchInput = document.getElementById('searchInput');
     this.keywordsList = document.getElementById('keywordsList');
     this.toggleLangBtn = document.getElementById('toggleLang');
@@ -63,7 +65,9 @@ class KeywordExplorer {
     const clone = this.keywordTemplate.content.cloneNode(true);
 
     const img = clone.querySelector('.keyword-image');
-    img.src = BASE_IMAGE_URL + keywordData.keyword.replace(/\s+/g, '') + IMAGE_SUFFIX;
+    // Si el keyword tiene un imageFile específico, usarlo, sino generar uno por defecto
+    const imageFile = keywordData.imageFile || keywordData.keyword.replace(/\s+/g, '') + '_1x.jpg';
+    img.src = BASE_IMAGE_URL + imageFile;
     img.alt = keyword;
 
     clone.querySelector('.keyword-text').textContent = keyword;
