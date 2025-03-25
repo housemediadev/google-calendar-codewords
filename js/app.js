@@ -1,6 +1,7 @@
-const IMAGE_URL = 'https://ssl.gstatic.com/calendar/images/eventillustrations/v1/';
+// const IMAGE_URL = 'https://ssl.gstatic.com/calendar/images/eventillustrations/v1/';
+const IMAGE_URL = 'https://ssl.gstatic.com/calendar/images/eventillustrations/2024_v2/';
 const IMAGE_PREFIX = 'img_';
-const IMAGE_SUFFIX = '_1x.jpg';
+const IMAGE_SUFFIX = '.svg';
 
 class KeywordExplorer {
   constructor() {
