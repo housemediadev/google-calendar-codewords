@@ -63,7 +63,7 @@ To add new keywords, modify `js/keywords_en.json` or `js/keywords_es.json` follo
 ```
 
 The application constructs image URLs using the standard Google Calendar image pattern:
-`https://ssl.gstatic.com/calendar/images/eventillustrations/v1/img_KEYWORD_1x.jpg`
+`https://ssl.gstatic.com/calendar/images/eventillustrations/2024_v2/img_KEYWORD.svg`
 
 ## Credits
 
