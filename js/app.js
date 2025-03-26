@@ -151,6 +151,7 @@ class KeywordExplorer {
     if (!keywordData) return;
 
     const clone = this.keywordTemplate.content.cloneNode(true);
+    const column = clone.querySelector('.col-12');
     const img = clone.querySelector('.keyword-image');
     const keywordText = clone.querySelector('.keyword-text');
     const relatedKeywords = clone.querySelector('.related-keywords');
@@ -159,9 +160,9 @@ class KeywordExplorer {
       // Handle image loading
       let imageFile = keywordData.imageFile || keyword.replace(/\s+/g, '');
 
-      // Special case for skiing
-      if (imageFile.toLowerCase().includes('skiing')) {
-        imageFile = 'skiing2';
+      // Apply special configurations if they exist
+      if (keywordData.className) {
+        column.className = keywordData.className;
       }
 
       img.src = IMAGE_URL + IMAGE_PREFIX + imageFile + IMAGE_SUFFIX;

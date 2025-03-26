@@ -62,6 +62,23 @@ To add new keywords, modify `js/keywords_en.json` or `js/keywords_es.json` follo
 ]
 ```
 
+## Special Configurations
+
+Some keywords have special configurations that affect their display:
+
+- **Column Width**: Use `className: "col-12"` to make a keyword take full width
+- **Image Override**: Use `imageFile: "custom-image"` to override the default image
+
+Example in keywords/en.json:
+```json
+{
+  "keyword": "xmas",
+  "related": ["christmas"],
+  "className": "col-12",
+  "imageFile": "custom-image"
+}
+```
+
 The application constructs image URLs using the standard Google Calendar image pattern:
 `https://ssl.gstatic.com/calendar/images/eventillustrations/2024_v2/img_KEYWORD.svg`
 

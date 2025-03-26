@@ -54,7 +54,7 @@
   {"keyword": "rowing", "related": ["Head of the Charles", "Head of the River Race", "May Bumps"]},
   {"keyword": "rugbysevens", "related": ["rugby"]},
   {"keyword": "running", "related": ["jog", "jogging","jogs", "sprinting", "track and field"]},
-  {"keyword": "skiing", "related": ["ski", "skiing", "skis"]},
+  {"keyword": "skiing", "related": ["ski", "skiing", "skis"], "imageFile": "skiing2"},
   {"keyword": "sleep", "related": ["nap", "napping", "sleeping", "relaxing", "resting"]},
   {"keyword": "soccer", "related": []},
   {"keyword": "saintpatricksday", "related": ["St Patricks"]},
@@ -70,6 +70,10 @@
   {"keyword": "walk", "related": ["walking"]},
   {"keyword": "walkingdog", "related": ["dog sitting", "dog walker", "dog walking", "dogsitting", "take dog out", "take out dog", "walk dog", "walk the dog"]},
   {"keyword": "wedding", "related": ["wedding eve", "wedding-eve party", "weddings"]},
-  {"keyword": "xmas", "related": ["christmas", "christmas brunch", "christmas dinner", "christmas eve brunch", "christmas eve dinner", "christmas eve lunch", "christmas eve luncheon", "christmas eve party", "christmas lunch", "christmas luncheon", "christmas party", "father christmas", "x-mas", "x-mas brunch", "x-mas dinner", "x-mas eve brunch", "x-mas eve dinner", "x-mas eve lunch", "x-mas eve luncheon", "x-mas eve party", "x-mas lunch", "x-mas luncheon", "x-mas party", "xmas brunch", "xmas dinner", "xmas eve brunch", "xmas eve dinner", "xmas eve lunch", "xmas eve luncheon", "xmas eve party", "xmas lunch", "xmas luncheon", "xmas party"]},
+  {
+    "keyword": "xmas",
+    "related": ["christmas", "christmas brunch", "christmas dinner", "christmas eve brunch", "christmas eve dinner", "christmas eve lunch", "christmas eve luncheon", "christmas eve party", "christmas lunch", "christmas luncheon", "christmas party", "father christmas", "x-mas", "x-mas brunch", "x-mas dinner", "x-mas eve brunch", "x-mas eve dinner", "x-mas eve lunch", "x-mas eve luncheon", "x-mas eve party", "x-mas lunch", "x-mas luncheon", "x-mas party", "xmas brunch", "xmas dinner", "xmas eve brunch", "xmas eve dinner", "xmas eve lunch", "xmas eve luncheon", "xmas eve party", "xmas lunch", "xmas luncheon", "xmas party"],
+    "className": "col-12 full-width"
+  },
   {"keyword": "yoga", "related": []}
 ]

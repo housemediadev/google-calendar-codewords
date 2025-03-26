@@ -4,10 +4,6 @@
     --accent-color: #ea4335;
 }
 
-body {
-    background-color: #f8f9fa;
-}
-
 .search-container {
     position: sticky;
     top: 1rem;
@@ -42,6 +38,10 @@ body {
     overflow: hidden;
     background-color: #e9ecef;
     border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.full-width .card-img-container {
+  height: 320px;
 }
 
 .keyword-image {
