@@ -179,6 +179,7 @@ class KeywordExplorer {
     });
 
     filteredKeywords.forEach(({ keyword }) => this.createKeywordCard(keyword));
+    this.observeImages();
   }
 
   /**
@@ -223,6 +224,7 @@ class KeywordExplorer {
       }
 
       this.keywordsList.appendChild(clone);
+      this.observeImages();
     } catch (error) {
       console.error('Error creating keyword card:', error);
     }
@@ -258,20 +260,37 @@ class KeywordExplorer {
    * Uses Intersection Observer for better performance
    */
   initializeLazyLoading() {
-    const observer = new IntersectionObserver((entries) => {
+    this.observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const img = entry.target;
-          img.src = img.dataset.src;
-          img.classList.add('loaded');
-          observer.unobserve(img);
+          const src = img.dataset.src;
+          if (src) {
+            img.src = src;
+            img.classList.add('loaded');
+            this.observer.unobserve(img);
+          }
         }
       });
     }, {
-      rootMargin: '50px'
+      rootMargin: '100px',
+      threshold: 0
     });
 
-    document.querySelectorAll('.keyword-image').forEach(img => observer.observe(img));
+    this.observeImages();
+  }
+
+  /**
+   * Observe all lazy images
+   */
+  observeImages() {
+    if (this.observer) {
+      document.querySelectorAll('.keyword-image').forEach(img => {
+        if (img.dataset.src && !img.src) {
+          this.observer.observe(img);
+        }
+      });
+    }
   }
 }
 

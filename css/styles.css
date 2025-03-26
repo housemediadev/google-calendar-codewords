@@ -127,6 +127,15 @@
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+.navbar .btn {
+  transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
 /* Responsive Grid Layout */
 @media (max-width: 768px) {
   .card-img-container {
@@ -148,4 +157,21 @@
 
 [data-bs-theme="dark"] .card-img-container {
   background-color: #2d2d2d;
+}
+
+/* Footer Styles */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--primary-color);
 }
