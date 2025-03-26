@@ -20,6 +20,7 @@ class KeywordExplorer {
       await this.loadKeywords();
       this.bindEvents();
       this.renderKeywords();
+      this.initializeLazyLoading();
     } catch (error) {
       console.error('Error initializing application:', error);
     }
@@ -154,6 +155,7 @@ class KeywordExplorer {
     const column = clone.querySelector('.col-12');
     const img = clone.querySelector('.keyword-image');
     const keywordText = clone.querySelector('.keyword-text');
+    const relatedKeywordsContainer = clone.querySelector('.related-keywords-container');
     const relatedKeywords = clone.querySelector('.related-keywords');
 
     try {
@@ -165,16 +167,24 @@ class KeywordExplorer {
         column.className = keywordData.className;
       }
 
-      img.src = IMAGE_URL + IMAGE_PREFIX + imageFile + IMAGE_SUFFIX;
+      // Store the image URL in a data attribute
+      img.dataset.src = IMAGE_URL + IMAGE_PREFIX + imageFile + IMAGE_SUFFIX;
       img.alt = keyword;
+
+      // Handle error case
       img.onerror = () => {
         img.src = 'https://placehold.co/448x192?text=' + encodeURIComponent(keyword);
       };
 
       keywordText.textContent = keyword;
-      relatedKeywords.textContent = keywordData.related
-        ? `${i18next.t('app.related')}: ${keywordData.related.join(', ')}`
-        : i18next.t('app.noRelatedKeywords');
+
+      // Only show related keywords if they exist
+      if (keywordData.related && keywordData.related.length > 0) {
+        relatedKeywords.textContent = `${i18next.t('app.related')}: ${keywordData.related.join(', ')}`;
+        relatedKeywordsContainer.style.display = 'block';
+      } else {
+        relatedKeywordsContainer.style.display = 'none';
+      }
 
       this.keywordsList.appendChild(clone);
     } catch (error) {
@@ -206,6 +216,33 @@ class KeywordExplorer {
     } catch (error) {
       console.error('Error rendering keywords:', error);
     }
+  }
+
+  initializeLazyLoading() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          const src = img.dataset.src;
+          if (src) {
+            // Set the src to start loading the image
+            img.src = src;
+
+            // Once the image is loaded, apply the animation
+            img.onload = () => {
+              img.classList.add('loaded');
+              observer.unobserve(img);
+            };
+          }
+        }
+      });
+    }, {
+      rootMargin: '50px'
+    });
+
+    document.querySelectorAll('.lazy').forEach(img => {
+      observer.observe(img);
+    });
   }
 }
 
