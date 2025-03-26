@@ -23,24 +23,20 @@
   </nav>
 
   <main class="container my-4">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <div class="search-container mb-4">
-          <input type="text" id="searchInput" class="form-control form-control-lg"
-            data-i18n="[placeholder]app.searchPlaceholder" placeholder="Search keywords...">
-        </div>
+    <div class="search-container mb-4">
+      <input type="search" id="searchInput" class="form-control form-control-lg"
+        data-i18n="[placeholder]app.searchPlaceholder" placeholder="Search keywords...">
+    </div>
 
-        <div class="keywords-container">
-          <div id="keywordsList" class="row g-3">
-            <!-- Keywords will be dynamically inserted here -->
-          </div>
-        </div>
+    <div class="keywords-container">
+      <div id="keywordsList" class="row g-3">
+        <!-- Keywords will be dynamically inserted here -->
       </div>
     </div>
   </main>
 
   <template id="keywordTemplate">
-    <div class="col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-4">
       <div class="card h-100">
         <div class="card-img-container">
           <img src="" class="card-img-top keyword-image" alt="">

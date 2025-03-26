@@ -151,15 +151,20 @@ class KeywordExplorer {
     if (!keywordData) return;
 
     const clone = this.keywordTemplate.content.cloneNode(true);
-    const card = clone.querySelector('.card');
     const img = clone.querySelector('.keyword-image');
     const keywordText = clone.querySelector('.keyword-text');
     const relatedKeywords = clone.querySelector('.related-keywords');
 
     try {
       // Handle image loading
-      const imageFile = IMAGE_PREFIX + (keywordData.imageFile || keyword.replace(/\s+/g, '')) + IMAGE_SUFFIX;
-      img.src = IMAGE_URL + imageFile;
+      let imageFile = keywordData.imageFile || keyword.replace(/\s+/g, '');
+
+      // Special case for skiing
+      if (imageFile.toLowerCase().includes('skiing')) {
+        imageFile = 'skiing2';
+      }
+
+      img.src = IMAGE_URL + IMAGE_PREFIX + imageFile + IMAGE_SUFFIX;
       img.alt = keyword;
       img.onerror = () => {
         img.src = 'https://placehold.co/448x192?text=' + encodeURIComponent(keyword);
@@ -183,6 +188,18 @@ class KeywordExplorer {
 
       // Sort keywords alphabetically
       keywords.sort((a, b) => a.keyword.localeCompare(b.keyword));
+      // xmas de ultimo
+      keywords.sort((a, b) => {
+        if (a.keyword.toLowerCase().includes('xmas')) {
+          return 1;
+        }
+
+        if (b.keyword.toLowerCase().includes('xmas')) {
+          return -1;
+        }
+
+        return 0;
+      });
 
       keywords.forEach(({ keyword }) => this.createKeywordCard(keyword));
     } catch (error) {
