@@ -1,5 +1,5 @@
 # Google Calendar Codewords
-![image](https://github.com/user-attachments/assets/5844e87e-d139-4a5c-95f0-2cecb9a38f57)
+![image](https://github.com/user-attachments/assets/927dee20-c8a3-461a-af9b-5e4eff2d56fe)
 
 A web application that allows users to explore and search through Google Calendar event keywords and their related terms. The application supports multiple languages and features a modern, responsive design.
 
