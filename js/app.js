@@ -1,10 +1,23 @@
-// const IMAGE_URL = 'https://ssl.gstatic.com/calendar/images/eventillustrations/v1/';
+// Constants for image URLs
+// Updated to 2024 version for better image quality
 const IMAGE_URL = 'https://ssl.gstatic.com/calendar/images/eventillustrations/2024_v2/';
 const IMAGE_PREFIX = 'img_';
 const IMAGE_SUFFIX = '.svg';
 
+/**
+ * Main application class for managing keyword exploration
+ * Handles UI rendering, keyword filtering, and internationalization
+ */
 class KeywordExplorer {
   constructor() {
+    /**
+     * Initialize DOM elements and data structures
+     * @property {HTMLElement} searchInput - Input element for keyword search
+     * @property {HTMLElement} keywordsList - Container for keyword cards
+     * @property {HTMLElement} langSelect - Language selection dropdown
+     * @property {HTMLElement} keywordTemplate - Template for keyword cards
+     * @property {Object} keywordsData - Stores keyword data by language
+     */
     this.searchInput = document.getElementById('searchInput');
     this.keywordsList = document.getElementById('keywordsList');
     this.langSelect = document.getElementById('langSelect');
@@ -14,6 +27,9 @@ class KeywordExplorer {
     this.init();
   }
 
+  /**
+   * Initialize the application by setting up i18n, loading keywords, and binding events
+   */
   async init() {
     try {
       await this.initI18n();
@@ -26,6 +42,10 @@ class KeywordExplorer {
     }
   }
 
+  /**
+   * Initialize i18next for internationalization
+   * Sets up language detection and translation loading
+   */
   async initI18n() {
     try {
       await i18next
@@ -49,23 +69,24 @@ class KeywordExplorer {
       await this.changeLanguage(validLang);
       this.langSelect.value = validLang;
 
-      // Initialize translations
       this.updateTranslations();
     } catch (error) {
       console.error('Error initializing i18n:', error);
     }
   }
 
+  /**
+   * Update translations for all elements with data-i18n attributes
+   * Handles both text content and attribute translations
+   */
   updateTranslations() {
     try {
-      // Update title
       document.title = i18next.t('app.title');
 
-      // Update all elements with data-i18n attribute
       document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (key.startsWith('[')) {
-          // Handle attributes like [placeholder]app.searchPlaceholder
+          // Handle attribute translations like [placeholder]app.searchPlaceholder
           const match = key.match(/\[(.*?)\](.*)/);
           if (match) {
             const attr = match[1];
@@ -73,7 +94,6 @@ class KeywordExplorer {
             element.setAttribute(attr, i18next.t(i18nKey));
           }
         } else {
-          // Handle text content
           element.textContent = i18next.t(key);
         }
       });
@@ -82,6 +102,10 @@ class KeywordExplorer {
     }
   }
 
+  /**
+   * Load keywords data for the current language
+   * Falls back to English if loading fails
+   */
   async loadKeywords() {
     try {
       const response = await fetch(`locale/keywords/${i18next.language}.json`);
@@ -89,7 +113,8 @@ class KeywordExplorer {
       this.keywordsData[i18next.language] = keywords;
     } catch (error) {
       console.error(`Error loading keywords for ${i18next.language}:`, error);
-      // If loading fails, try loading English as fallback
+
+      // Fallback to English if current language fails
       if (i18next.language !== 'en') {
         const fallbackResponse = await fetch('locale/keywords/en.json');
         this.keywordsData[i18next.language] = await fallbackResponse.json();
@@ -97,11 +122,18 @@ class KeywordExplorer {
     }
   }
 
+  /**
+   * Bind event listeners for search and language change
+   */
   bindEvents() {
     this.searchInput.addEventListener('input', () => this.filterKeywords());
     this.langSelect.addEventListener('change', (e) => this.changeLanguage(e.target.value));
   }
 
+  /**
+   * Change application language and update translations
+   * @param {string} lang - Language code (en/es)
+   */
   async changeLanguage(lang) {
     try {
       await i18next.changeLanguage(lang);
@@ -114,16 +146,18 @@ class KeywordExplorer {
       this.renderKeywords();
     } catch (error) {
       console.error('Error changing language:', error);
-      // Fallback to default language
       this.changeLanguage('en');
     }
   }
 
+  /**
+   * Filter keywords based on search input
+   * Shows cards that match the search term in keyword or related keywords
+   */
   filterKeywords() {
     const searchTerm = this.searchInput.value.toLowerCase().trim();
     const keywords = this.keywordsData[i18next.language] || [];
 
-    // Early return if no search term
     if (!searchTerm) {
       this.renderKeywords();
       return;
@@ -147,6 +181,10 @@ class KeywordExplorer {
     filteredKeywords.forEach(({ keyword }) => this.createKeywordCard(keyword));
   }
 
+  /**
+   * Create and append a keyword card to the list
+   * @param {string} keyword - The keyword to display
+   */
   createKeywordCard(keyword) {
     const keywordData = this.keywordsData[i18next.language]?.find(item => item.keyword === keyword);
     if (!keywordData) return;
@@ -159,26 +197,24 @@ class KeywordExplorer {
     const relatedKeywords = clone.querySelector('.related-keywords');
 
     try {
-      // Handle image loading
       let imageFile = keywordData.imageFile || keyword.replace(/\s+/g, '');
 
-      // Apply special configurations if they exist
+      // Apply custom class if defined
       if (keywordData.className) {
         column.className = keywordData.className;
       }
 
-      // Store the image URL in a data attribute
       img.dataset.src = IMAGE_URL + IMAGE_PREFIX + imageFile + IMAGE_SUFFIX;
       img.alt = keyword;
 
-      // Handle error case
+      // Fallback to placeholder image if loading fails
       img.onerror = () => {
         img.src = 'https://placehold.co/448x192?text=' + encodeURIComponent(keyword);
       };
 
       keywordText.textContent = keyword;
 
-      // Only show related keywords if they exist
+      // Show related keywords if they exist
       if (keywordData.related && keywordData.related.length > 0) {
         relatedKeywords.textContent = `${i18next.t('app.related')}: ${keywordData.related.join(', ')}`;
         relatedKeywordsContainer.style.display = 'block';
@@ -192,61 +228,54 @@ class KeywordExplorer {
     }
   }
 
+  /**
+   * Render all keywords in alphabetical order
+   */
   renderKeywords() {
-    try {
-      this.keywordsList.innerHTML = '';
-      const keywords = this.keywordsData[i18next.language] || [];
+    this.keywordsList.innerHTML = '';
+    const keywords = this.keywordsData[i18next.language] || [];
 
-      // Sort keywords alphabetically
-      keywords.sort((a, b) => a.keyword.localeCompare(b.keyword));
-      // xmas de ultimo
-      keywords.sort((a, b) => {
-        if (a.keyword.toLowerCase().includes('xmas')) {
-          return 1;
-        }
+    keywords.sort((a, b) => a.keyword.localeCompare(b.keyword));
 
-        if (b.keyword.toLowerCase().includes('xmas')) {
-          return -1;
-        }
+    // Move 'xmas' to the end
+    keywords.sort((a, b) => {
+      if (a.keyword.toLowerCase().includes('xmas')) {
+        return 1;
+      }
 
-        return 0;
-      });
+      if (b.keyword.toLowerCase().includes('xmas')) {
+        return -1;
+      }
 
-      keywords.forEach(({ keyword }) => this.createKeywordCard(keyword));
-    } catch (error) {
-      console.error('Error rendering keywords:', error);
-    }
+      return 0;
+    });
+
+    keywords.forEach(({ keyword }) => this.createKeywordCard(keyword));
   }
 
+  /**
+   * Initialize lazy loading for images
+   * Uses Intersection Observer for better performance
+   */
   initializeLazyLoading() {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const img = entry.target;
-          const src = img.dataset.src;
-          if (src) {
-            // Set the src to start loading the image
-            img.src = src;
-
-            // Once the image is loaded, apply the animation
-            img.onload = () => {
-              img.classList.add('loaded');
-              observer.unobserve(img);
-            };
-          }
+          img.src = img.dataset.src;
+          img.classList.add('loaded');
+          observer.unobserve(img);
         }
       });
     }, {
       rootMargin: '50px'
     });
 
-    document.querySelectorAll('.lazy').forEach(img => {
-      observer.observe(img);
-    });
+    document.querySelectorAll('.keyword-image').forEach(img => observer.observe(img));
   }
 }
 
-// Initialize the application
+// Initialize the application when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   try {
     new KeywordExplorer();

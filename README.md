@@ -1,91 +1,101 @@
-# Google Calendar Keywords Explorer
+# Google Calendar Codewords
 
-An interactive web application for exploring keywords that trigger cover images in Google Calendar. This application allows you to search and discover keywords in both English and Spanish, showing representative images and related suggestions.
+A web application that allows users to explore and search through Google Calendar event keywords and their related terms. The application supports multiple languages and features a modern, responsive design.
 
 ## Features
 
-- 🔍 Real-time search functionality
-- 🌍 Multi-language support (EN/ES)
-- 🖼️ Google Calendar event illustrations
-- 📱 Responsive design
-- 🔄 Related keyword suggestions
-- ⚡ Fast and lightweight
-- 🎨 Modern UI/UX
+- 🔍 Keyword search with real-time filtering
+- 🌐 Multi-language support (English and Spanish)
+- 📱 Responsive design for all devices
+- 🎨 Modern UI with smooth animations
+- 📱 Lazy loading for optimized performance
+- 🌓 Dark mode support
 
-## Technologies
+## Setup
 
-- HTML5
-- CSS3 (with Bootstrap 5)
-- JavaScript (ES6+)
-- Google Calendar event illustrations
-- Node.js for development server
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd google-calendar-codewords
+```
 
-## Quick Start
-
-1. Clone the repository
 2. Install dependencies:
 ```bash
 npm install
 ```
+
 3. Start the development server:
 ```bash
 npm start
 ```
-4. Open http://localhost:8080 in your browser
 
-## Usage
+4. Open your browser and navigate to `http://localhost:8080`
 
-1. Use the search bar to filter keywords in real-time
-2. Switch language using the EN/ES button
-3. Explore related words for each keyword
-4. Click on cards to see larger images
+## Project Structure
+
+```
+google-calendar-codewords/
+├── css/
+│   └── styles.css          # Application styles
+├── js/
+│   └── app.js              # Main application logic
+├── locale/
+│   ├── keywords/
+│   │   ├── en.json        # English keywords
+│   │   └── es.json        # Spanish keywords
+│   └── translations/
+│       ├── en.json        # English translations
+│       └── es.json        # Spanish translations
+└── index.html             # Main HTML file
+```
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Bootstrap 5
+- i18next for internationalization
+
+## Customization
+
+### Colors
+The application uses CSS variables for easy customization. Modify the colors in `:root` in [styles.css](cci:7://file:///home/bound3r/Development/housemedia/hm/google-calendar-codewords/css/styles.css:0:0-0:0):
+
+```css
+:root {
+  --primary-color: #4285f4;  /* Google's primary blue */
+  --secondary-color: #34a853; /* Google's green */
+  --accent-color: #ea4335;    /* Google's red */
+}
+```
+
+### Keywords
+Add new keywords by modifying the JSON files in the `locale/keywords` directory. Each keyword should have the following structure:
+
+```json
+{
+  "keyword": "example",
+  "imageFile": "optional_image_name",
+  "related": ["related1", "related2"],
+  "className": "optional-class-name"
+}
+```
 
 ## Contributing
 
 1. Fork the repository
-2. Create your contribution branch (`git checkout -b words/en/your-contribution`)
-3. Commit your changes (`git commit -am 'Add new keywords'`)
-4. Push to the branch (`git push origin words/en/your-contribution`)
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-
-## Data Structure
-
-To add new keywords, modify `js/keywords_en.json` or `js/keywords_es.json` following this format:
-
-```json
-[
-  {
-    "keyword": "google_calendar_keyword",
-    "related": ["related1", "related2"]
-  }
-]
-```
-
-## Special Configurations
-
-Some keywords have special configurations that affect their display:
-
-- **Column Width**: Use `className: "col-12"` to make a keyword take full width
-- **Image Override**: Use `imageFile: "custom-image"` to override the default image
-
-Example in keywords/en.json:
-```json
-{
-  "keyword": "xmas",
-  "related": ["christmas"],
-  "className": "col-12",
-  "imageFile": "custom-image"
-}
-```
-
-The application constructs image URLs using the standard Google Calendar image pattern:
-`https://ssl.gstatic.com/calendar/images/eventillustrations/2024_v2/img_KEYWORD.svg`
-
-## Credits
-
-- Original keyword list from [mifran/google-calendar-image-keyword](https://github.com/mifran/google-calendar-image-keyword)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Google Calendar for providing the event illustrations
+- i18next for internationalization support
+- Bootstrap for the responsive framework
