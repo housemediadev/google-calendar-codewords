@@ -198,19 +198,14 @@ class KeywordExplorer {
     const relatedKeywords = clone.querySelector('.related-keywords');
 
     try {
-      let imageFile = keywordData.imageFile || keyword.replace(/\s+/g, '');
+      let slug = keywordData.slug || keyword.replace(/\s+/g, '');
 
-      // Apply custom class if defined
-      if (keywordData.className) {
-        column.className = keywordData.className;
-      }
-
-      img.dataset.src = IMAGE_URL + IMAGE_PREFIX + imageFile + IMAGE_SUFFIX;
+      img.dataset.src = IMAGE_URL + IMAGE_PREFIX + slug + IMAGE_SUFFIX;
       img.alt = keyword;
 
       // Fallback to placeholder image if loading fails
       img.onerror = () => {
-        img.src = 'https://placehold.co/448x192?text=' + encodeURIComponent(keyword);
+        img.src = 'https://placehold.co/448x192?text=' + encodeURIComponent(slug);
       };
 
       keywordText.textContent = keyword;

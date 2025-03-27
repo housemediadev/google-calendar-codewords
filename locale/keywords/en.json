@@ -1,79 +1,367 @@
 [
-  {"keyword": "american football", "related": ["football", "superbowl", "super bowl"]},
-  {"keyword": "art", "related": ["art workshop", "art workshops", "drawing workshop", "painting", "sketching workshop"]},
-  {"keyword": "athleticsjumping", "related": ["Athletics Jumping", "Jumping"]},
-  {"keyword": "babyshower", "related": ["baby shower", "maternity"]},
-  {"keyword": "badminton", "related": []},
-  {"keyword": "baseball", "related": []},
-  {"keyword": "basketball", "related": []},
-  {"keyword": "bbq", "related": ["barbecue", "barbeque"]},
-  {"keyword": "bills", "related": ["payment"]},
-  {"keyword": "birthday", "related": []},
-  {"keyword": "bowling", "related": []},
-  {"keyword": "breakfast", "related": ["brunch"]},
-  {"keyword": "camping", "related": []},
-  {"keyword": "chinese new year", "related": ["chinese lunar new year", "chinese new years", "chinese new year's", "vietnamese new year"]},
-  {"keyword": "cinema", "related": ["movie", "movies"]},
-  {"keyword": "clean", "related": ["clean house", "clean the apartment", "clean the house", "tidy up", "vacuum clean", "vacuum cleaning"]},
-  {"keyword": "climbing", "related": ["bouldering"]},
-  {"keyword": "coffee", "related": ["coffees"]},
-  {"keyword": "concert", "related": ["concerts", "gig", "gigs"]},
-  {"keyword": "cooking", "related": ["cook dinner", "cook lunch", "cook meal", "make dinner", "make lunch", "prepare meal", "prepare dinner", "prepare lunch"]},
-  {"keyword": "cricket", "related": ["cricket competition", "cricket game", "cricket match"]},
-  {"keyword": "cycling", "related": ["bicycle", "bicycles", "bike", "bikes", "biking", "mountain bike", "mountainbikes", "mountain Biking"]},
-  {"keyword": "cyclingbmx", "related": ["bmx"]},
-  {"keyword": "dancing", "related": ["ballet", "dance", "dances"]},
-  {"keyword": "dentist", "related": ["dental", "dentistry", "teeth cleaning"]},
-  {"keyword": "dinner", "related": ["candle light dinner", "candlelight dinner", "dinners", "romantic dinner"]},
-  {"keyword": "drinks", "related": ["bachelor party", "bachelors party", "beer", "beers", "cocktail", "cocktails"]},
-  {"keyword": "field hockey", "related": []},
-  {"keyword": "gamenight", "related": ["board game", "board games", "boardgame", "boardgames", "gamenights"]},
-  {"keyword": "genericnewyear", "related": ["generic new year", "new year", "new year's", "new years", "Parsi New Year"]},
-  {"keyword": "gymnastics", "related": ["artistic gymnastics", "rhythmic gymnastics"]},
-  {"keyword": "golf", "related": []},
-  {"keyword": "graduation", "related": []},
-  {"keyword": "gym", "related": ["crossfit", "fitness center", "fitness class", "fitness evaluation", "fitness program", "fitness test", "fitness training", "weight lifting", "weightlifting", "workout", "workouts"]},
-  {"keyword": "haircut", "related": ["hair", "hairdresser"]},
-  {"keyword": "halloween", "related": ["all hallows' eve", "halloween's eve", "halloween's day", "allhalloween", "helloween", "halloween dance"]},
-  {"keyword": "hiking", "related": ["hike", "hikes"]},
-  {"keyword": "islamicnewyear", "related": ["Hijri New Year", "Islamic New Year"]},
-  {"keyword": "karate", "related": ["Aikido", "Jujutsu", "Judo", "Jiu jitsu", "Jiu-jitsu", "Jujutsu", "martial arts", "taekwondo"]},
-  {"keyword": "kayaking", "related": ["canoe", "canoeing"]},
-  {"keyword": "kidspickupdropoff", "related": ["back to school", "back2school", "backtoschool", "first day of school"]},
-  {"keyword": "learninstrument", "related": ["cello", "choir", "choir practice", "clarinet", "classical music", "contrabass", "cornett", "flute", "guitar lesson", "music class", "music ensemble", "oboe", "orchestra", "piano", "saxophone", "singing", "string quartett", "trombone", "trumpet", "tuba"]},
-  {"keyword": "lunch", "related": ["luncheon", "lunches"]},
-  {"keyword": "mardigras", "related": ["fat Tuesday", "mardi gras", "Shrove Tuesday"]},
-  {"keyword": "massage", "related": ["back rub", "backrub", "massages","massage therapy"]},
-  {"keyword": "nowruz", "related": ["Persian New Year"]},
-  {"keyword": "onlineclasses", "related": ["learn to code"]},
-  {"keyword": "ping pong", "related": ["ping-pong", "pingpong", "table tennis"]},
-  {"keyword": "planmyday", "related": ["plan my day", "plan day", "plan quarter", "plan vacation", "plan week", "vacation planning", "week planning"]},
-  {"keyword": "pride", "related": ["christopher street day", "dyke march", "euro pride", "europride", "gay and lesbian", "gay lesbian", "gay parade", "gay pride", "gaygler", "gayglers", "lesbian march", "lesbian parade", "lesbian pride", "world pride", "worldpride"]},
-  {"keyword": "read", "related": ["ebook", "reading", "book club"]},
-  {"keyword": "repair", "related": ["diy", "electrician", "fridge repair", "handyman", "plumber"]},
-  {"keyword": "rowing", "related": ["Head of the Charles", "Head of the River Race", "May Bumps"]},
-  {"keyword": "rugbysevens", "related": ["rugby"]},
-  {"keyword": "running", "related": ["jog", "jogging","jogs", "sprinting", "track and field"]},
-  {"keyword": "skiing", "related": ["ski", "skiing", "skis"], "imageFile": "skiing2"},
-  {"keyword": "sleep", "related": ["nap", "napping", "sleeping", "relaxing", "resting"]},
-  {"keyword": "soccer", "related": []},
-  {"keyword": "saintpatricksday", "related": ["St Patricks"]},
-  {"keyword": "studying", "related": ["studying", "write letter"]},
-  {"keyword": "swimming", "related": ["diving", "swim", "swims", "synchronized swimming"]},
-  {"keyword": "tennis", "related": []},
-  {"keyword": "thanksgiving", "related": []},
-  {"keyword": "triathlon", "related": []},
-  {"keyword": "valentinesday", "related": ["valentine day", "valentines day"]},
-  {"keyword": "videocall", "related": ["video call", "reach out to"]},
-  {"keyword": "videogaming", "related": ["video game", "video games", "videogames", "video gaming", "AGDQ", "games done quick", "SGDQ"]},
-  {"keyword": "volleyball", "related": []},
-  {"keyword": "walk", "related": ["walking"]},
-  {"keyword": "walkingdog", "related": ["dog sitting", "dog walker", "dog walking", "dogsitting", "take dog out", "take out dog", "walk dog", "walk the dog"]},
-  {"keyword": "wedding", "related": ["wedding eve", "wedding-eve party", "weddings"]},
   {
-    "keyword": "xmas",
-    "related": ["christmas", "christmas brunch", "christmas dinner", "christmas eve brunch", "christmas eve dinner", "christmas eve lunch", "christmas eve luncheon", "christmas eve party", "christmas lunch", "christmas luncheon", "christmas party", "father christmas", "x-mas", "x-mas brunch", "x-mas dinner", "x-mas eve brunch", "x-mas eve dinner", "x-mas eve lunch", "x-mas eve luncheon", "x-mas eve party", "x-mas lunch", "x-mas luncheon", "x-mas party", "xmas brunch", "xmas dinner", "xmas eve brunch", "xmas eve dinner", "xmas eve lunch", "xmas eve luncheon", "xmas eve party", "xmas lunch", "xmas luncheon", "xmas party"],
-    "className": "col-12 full-width"
+    "keyword": "american football",
+    "related": ["football", "superbowl", "super bowl"],
+    "slug": "americanfootball"
   },
-  {"keyword": "yoga", "related": []}
+  {
+    "keyword": "art",
+    "related": ["art workshop", "art workshops", "drawing workshop", "painting", "sketching workshop"],
+    "slug": "art"
+  },
+  {
+    "keyword": "athletics jumping",
+    "related": ["Athletics Jumping", "Jumping"],
+    "slug": "athleticsjumping"
+  },
+  {
+    "keyword": "baby shower",
+    "related": ["baby shower", "maternity"],
+    "slug": "babyshower"
+  },
+  {
+    "keyword": "badminton",
+    "related": [],
+    "slug": "badminton"
+  },
+  {
+    "keyword": "baseball",
+    "related": [],
+    "slug": "baseball"
+  },
+  {
+    "keyword": "basketball",
+    "related": [],
+    "slug": "basketball"
+  },
+  {
+    "keyword": "bbq",
+    "related": ["barbecue", "barbeque"],
+    "slug": "bbq"
+  },
+  {
+    "keyword": "bills",
+    "related": ["payment"],
+    "slug": "bills"
+  },
+  {
+    "keyword": "birthday",
+    "related": [],
+    "slug": "birthday"
+  },
+  {
+    "keyword": "bowling",
+    "related": [],
+    "slug": "bowling"
+  },
+  {
+    "keyword": "breakfast",
+    "related": ["brunch"],
+    "slug": "breakfast"
+  },
+  {
+    "keyword": "camping",
+    "related": [],
+    "slug": "camping"
+  },
+  {
+    "keyword": "chinese new year",
+    "related": ["chinese lunar new year", "chinese new years", "chinese new year's", "vietnamese new year"],
+    "slug": "chinesenewyear"
+  },
+  {
+    "keyword": "cinema",
+    "related": ["movie", "movies"],
+    "slug": "cinema"
+  },
+  {
+    "keyword": "clean",
+    "related": ["clean house", "clean the apartment", "clean the house", "tidy up", "vacuum clean", "vacuum cleaning"],
+    "slug": "clean"
+  },
+  {
+    "keyword": "climbing",
+    "related": ["bouldering"],
+    "slug": "climbing"
+  },
+  {
+    "keyword": "coffee",
+    "related": ["coffees"],
+    "slug": "coffee"
+  },
+  {
+    "keyword": "concert",
+    "related": ["concerts", "gig", "gigs"],
+    "slug": "concert"
+  },
+  {
+    "keyword": "cooking",
+    "related": ["cook dinner", "cook lunch", "cook meal", "make dinner", "make lunch", "prepare meal", "prepare dinner", "prepare lunch"],
+    "slug": "cooking"
+  },
+  {
+    "keyword": "cricket",
+    "related": ["cricket competition", "cricket game", "cricket match"],
+    "slug": "cricket"
+  },
+  {
+    "keyword": "cycling",
+    "related": ["bicycle", "bicycles", "bike", "bikes", "biking", "mountain bike", "mountainbikes", "mountain Biking"],
+    "slug": "cycling"
+  },
+  {
+    "keyword": "cycling bmx",
+    "related": ["bmx"],
+    "slug": "cyclingbmx"
+  },
+  {
+    "keyword": "dancing",
+    "related": ["ballet", "dance", "dances"],
+    "slug": "dancing"
+  },
+  {
+    "keyword": "dentist",
+    "related": ["dental", "dentistry", "teeth cleaning"],
+    "slug": "dentist"
+  },
+  {
+    "keyword": "dinner",
+    "related": ["candle light dinner", "candlelight dinner", "dinners", "romantic dinner"],
+    "slug": "dinner"
+  },
+  {
+    "keyword": "drinks",
+    "related": ["bachelor party", "bachelors party", "beer", "beers", "cocktail", "cocktails"],
+    "slug": "drinks"
+  },
+  {
+    "keyword": "field hockey",
+    "related": [],
+    "slug": "fieldhockey"
+  },
+  {
+    "keyword": "game night",
+    "related": ["board game", "board games", "boardgame", "boardgames", "gamenights"],
+    "slug": "gamenight"
+  },
+  {
+    "keyword": "generic new year",
+    "related": ["generic new year", "new year", "new year's", "new years", "Parsi New Year"],
+    "slug": "genericnewyear"
+  },
+  {
+    "keyword": "gymnastics",
+    "related": ["artistic gymnastics", "rhythmic gymnastics"],
+    "slug": "gymnastics"
+  },
+  {
+    "keyword": "golf",
+    "related": [],
+    "slug": "golf"
+  },
+  {
+    "keyword": "graduation",
+    "related": [],
+    "slug": "graduation"
+  },
+  {
+    "keyword": "gym",
+    "related": ["crossfit", "fitness center", "fitness class", "fitness evaluation", "fitness program", "fitness test", "fitness training", "weight lifting", "weightlifting", "workout", "workouts"],
+    "slug": "gym"
+  },
+  {
+    "keyword": "haircut",
+    "related": ["hair", "hairdresser"],
+    "slug": "haircut"
+  },
+  {
+    "keyword": "halloween",
+    "related": ["all hallows' eve", "halloween's eve", "halloween's day", "allhalloween", "helloween", "halloween dance"],
+    "slug": "halloween"
+  },
+  {
+    "keyword": "hiking",
+    "related": ["hike", "hikes"],
+    "slug": "hiking"
+  },
+  {
+    "keyword": "islamic new year",
+    "related": ["Hijri New Year", "Islamic New Year"],
+    "slug": "islamicnewyear"
+  },
+  {
+    "keyword": "karate",
+    "related": ["Aikido", "Jujutsu", "Judo", "Jiu jitsu", "Jiu-jitsu", "Jujutsu", "martial arts", "taekwondo"],
+    "slug": "karate"
+  },
+  {
+    "keyword": "kayaking",
+    "related": ["canoe", "canoeing"],
+    "slug": "kayaking"
+  },
+  {
+    "keyword": "kids pickup dropoff",
+    "related": ["back to school", "back2school", "backtoschool", "first day of school"],
+    "slug": "kidspickupdropoff"
+  },
+  {
+    "keyword": "learn instrument",
+    "related": ["cello", "choir", "choir practice", "clarinet", "classical music", "contrabass", "cornett", "flute", "guitar lesson", "music class", "music ensemble", "oboe", "orchestra", "piano", "saxophone", "singing", "string quartett", "trombone", "trumpet", "tuba"],
+    "slug": "learninstrument"
+  },
+  {
+    "keyword": "lunch",
+    "related": ["luncheon", "lunches"],
+    "slug": "lunch"
+  },
+  {
+    "keyword": "mardi gras",
+    "related": ["fat Tuesday", "mardi gras", "Shrove Tuesday"],
+    "slug": "mardigras"
+  },
+  {
+    "keyword": "massage",
+    "related": ["back rub", "backrub", "massages", "massage therapy"],
+    "slug": "massage"
+  },
+  {
+    "keyword": "nowruz",
+    "related": ["Persian New Year"],
+    "slug": "nowruz"
+  },
+  {
+    "keyword": "online classes",
+    "related": ["learn to code"],
+    "slug": "onlineclasses"
+  },
+  {
+    "keyword": "ping pong",
+    "related": ["ping-pong", "pingpong", "table tennis"],
+    "slug": "pingpong"
+  },
+  {
+    "keyword": "plan my day",
+    "related": ["plan my day", "plan day", "plan quarter", "plan vacation", "plan week", "vacation planning", "week planning"],
+    "slug": "planmyday"
+  },
+  {
+    "keyword": "pride",
+    "related": ["christopher street day", "dyke march", "euro pride", "europride", "gay and lesbian", "gay lesbian", "gay parade", "gay pride", "gaygler", "gayglers", "lesbian march", "lesbian parade", "lesbian pride", "world pride", "worldpride"],
+    "slug": "pride"
+  },
+  {
+    "keyword": "read",
+    "related": ["ebook", "reading", "book club"],
+    "slug": "read"
+  },
+  {
+    "keyword": "repair",
+    "related": ["diy", "electrician", "fridge repair", "handyman", "plumber"],
+    "slug": "repair"
+  },
+  {
+    "keyword": "rowing",
+    "related": ["Head of the Charles", "Head of the River Race", "May Bumps"],
+    "slug": "rowing"
+  },
+  {
+    "keyword": "rugby sevens",
+    "related": ["rugby"],
+    "slug": "rugbysevens"
+  },
+  {
+    "keyword": "running",
+    "related": ["jog", "jogging", "jogs", "sprinting", "track"],
+    "slug": "running"
+  },
+  {
+    "keyword": "skiing",
+    "related": ["ski", "skiing", "skis"],
+    "slug": "skiing2"
+  },
+  {
+    "keyword": "sleep",
+    "related": ["nap", "napping", "sleeping", "relax", "rest"],
+    "slug": "sleep"
+  },
+  {
+    "keyword": "soccer",
+    "related": [],
+    "slug": "soccer"
+  },
+  {
+    "keyword": "st patricks day",
+    "related": ["saint patrick"],
+    "slug": "saint-patricksday"
+  },
+  {
+    "keyword": "study",
+    "related": ["studing", "write letter"],
+    "slug": "studying"
+  },
+  {
+    "keyword": "swimming",
+    "related": ["diving", "swim", "swimming", "synchronized swimming"],
+    "slug": "swimming"
+  },
+  {
+    "keyword": "tennis",
+    "related": [],
+    "slug": "tennis"
+  },
+  {
+    "keyword": "thanksgiving",
+    "related": [],
+    "slug": "thanksgiving"
+  },
+  {
+    "keyword": "triathlon",
+    "related": [],
+    "slug": "triathlon"
+  },
+  {
+    "keyword": "valentines day",
+    "related": ["valentine's day", "valentines"],
+    "slug": "valentinesday"
+  },
+  {
+    "keyword": "video call",
+    "related": ["video chat", "get in touch with"],
+    "slug": "videocall"
+  },
+  {
+    "keyword": "video games",
+    "related": ["video game", "video games", "videogames", "play video games", "AGDQ", "Games Done Quick", "SGDQ"],
+    "slug": "videogaming"
+  },
+  {
+    "keyword": "volleyball",
+    "related": [],
+    "slug": "volleyball"
+  },
+  {
+    "keyword": "walk",
+    "related": ["walking"],
+    "slug": "walk"
+  },
+  {
+    "keyword": "walking dog",
+    "related": ["dog sitting", "dog walker", "dog walking", "dogsitting", "take dog out", "take out dog", "walk dog", "walk the dog"],
+    "slug": "walkingdog"
+  },
+  {
+    "keyword": "wedding",
+    "related": ["wedding eve", "wedding eve party", "weddings"],
+    "slug": "wedding"
+  },
+  {
+    "keyword": "christmas",
+    "related": ["christmas", "christmas brunch", "christmas dinner", "christmas eve brunch", "christmas eve dinner", "christmas eve lunch", "christmas eve meal", "christmas eve party", "christmas lunch", "christmas meal", "christmas party", "santa claus", "xmas", "xmas brunch", "xmas dinner", "xmas eve brunch", "xmas eve dinner", "xmas eve lunch", "xmas eve meal", "xmas eve party", "xmas lunch", "xmas meal", "xmas party", "christmas brunch", "christmas dinner", "christmas eve brunch", "christmas eve dinner", "christmas eve lunch", "christmas eve meal", "christmas eve party", "christmas lunch", "christmas meal", "christmas party"],
+    "slug": "xmas"
+  },
+  {
+    "keyword": "yoga",
+    "related": [],
+    "slug": "yoga"
+  }
 ]

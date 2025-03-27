@@ -1,78 +1,367 @@
 [
-  {"keyword": "fútbol americano", "related": ["fútbol", "Super Bowl", "Super Bowl"]},
-  {"keyword": "arte", "related": ["taller de arte", "talleres de arte", "taller de dibujo", "pintura", "taller de sketching"]},
-  {"keyword": "atletismo salto", "related": ["Atletismo Salto", "Salto"]},
-  {"keyword": "fiesta de baby shower", "related": ["baby shower", "maternidad"]},
-  {"keyword": "bádminton", "related": []},
-  {"keyword": "béisbol", "related": []},
-  {"keyword": "baloncesto", "related": []},
-  {"keyword": "barbacoa", "related": ["barbacoa", "barbacoa"]},
-  {"keyword": "facturas", "related": ["pago"]},
-  {"keyword": "cumpleaños", "related": []},
-  {"keyword": "bolos", "related": []},
-  {"keyword": "desayuno", "related": ["brunch"]},
-  {"keyword": "camping", "related": []},
-  {"keyword": "Año Nuevo Chino", "related": ["Año Nuevo Lunar Chino", "Años Nuevos Chinos", "Año Nuevo Chino", "Año Nuevo Vietnamita"]},
-  {"keyword": "cine", "related": ["película", "películas"]},
-  {"keyword": "limpiar", "related": ["limpiar la casa", "limpiar el apartamento", "limpiar la casa", "ordenar", "pasar la aspiradora", "aspirar"]},
-  {"keyword": "escalada", "related": ["búlder"]},
-  {"keyword": "café", "related": ["cafés"]},
-  {"keyword": "concierto", "related": ["conciertos", "concierto íntimo", "conciertos íntimos"]},
-  {"keyword": "cocinar", "related": ["cocinar la cena", "cocinar el almuerzo", "preparar comida", "hacer la cena", "preparar el almuerzo", "preparar comida", "preparar la cena", "preparar el almuerzo"]},
-  {"keyword": "críquet", "related": ["partido de críquet", "juego de críquet", "competición de críquet"]},
-  {"keyword": "ciclismo", "related": ["bicicleta", "bicicletas", "bici", "bicis", "ciclismo", "bici de montaña", "bicis de montaña", "ciclismo de montaña"]},
-  {"keyword": "ciclismo BMX", "related": ["BMX"]},
-  {"keyword": "baile", "related": ["ballet", "baile", "bailes"]},
-  {"keyword": "dentista", "related": ["odontología", "odontología", "limpieza dental"]},
-  {"keyword": "cena", "related": ["cena romántica", "cena romántica", "cenas", "cena romántica"]},
-  {"keyword": "bebidas", "related": ["despedida de soltero", "despedida de soltero", "cerveza", "cervezas", "cóctel", "cócteles"]},
-  {"keyword": "hockey sobre césped", "related": []},
-  {"keyword": "noche de juegos", "related": ["juego de mesa", "juegos de mesa", "juego de mesa", "juegos de mesa", "noches de juegos"]},
-  {"keyword": "Año Nuevo genérico", "related": ["Año Nuevo genérico", "Año Nuevo", "Año Nuevo", "Años Nuevos", "Año Nuevo Parsi"]},
-  {"keyword": "gimnasia", "related": ["gimnasia artística", "gimnasia rítmica"]},
-  {"keyword": "golf", "related": []},
-  {"keyword": "graduación", "related": []},
-  {"keyword": "gimnasio", "related": ["crossfit", "centro de fitness", "clase de fitness", "evaluación física", "programa de fitness", "prueba física", "entrenamiento físico", "levantamiento de pesas", "halterofilia", "entrenamiento", "entrenamientos"]},
-  {"keyword": "corte de pelo", "related": ["pelo", "peluquero"]},
-  {"keyword": "Halloween", "related": ["Víspera de Todos los Santos", "Víspera de Halloween", "Día de Halloween", "Halloween", "Halloween", "baile de Halloween"]},
-  {"keyword": "senderismo", "related": ["excursión", "excursiones"]},
-  {"keyword": "Año Nuevo Islámico", "related": ["Año Nuevo Hijri", "Año Nuevo Islámico"]},
-  {"keyword": "karate", "related": ["Aikido", "Jujutsu", "Judo", "Jiu jitsu", "Jiu-jitsu", "Jujutsu", "artes marciales", "taekwondo"]},
-  {"keyword": "kayak", "related": ["canoa", "piragüismo"]},
-  {"keyword": "recoger y dejar niños", "related": ["vuelta al cole", "vuelta al cole", "vuelta al cole", "primer día de escuela"]},
-  {"keyword": "aprender instrumento", "related": ["violonchelo", "coro", "ensayo de coro", "clarinete", "música clásica", "contrabajo", "corneta", "flauta", "clase de guitarra", "clase de música", "grupo musical", "oboe", "orquesta", "piano", "saxofón", "canto", "cuarteto de cuerda", "trombón", "trompeta", "tuba"]},
-  {"keyword": "almuerzo", "related": ["almuerzo", "almuerzos"]},
-  {"keyword": "Martes de Carnaval", "related": ["Martes Gordo", "Mardi Gras", "Martes de Carnaval"]},
-  {"keyword": "masaje", "related": ["masaje espalda", "masaje espalda", "masajes", "terapia de masaje"]},
-  {"keyword": "Nowruz", "related": ["Año Nuevo Persa"]},
-  {"keyword": "clases en línea", "related": ["aprender a programar"]},
-  {"keyword": "ping pong", "related": ["ping-pong", "pingpong", "tenis de mesa"]},
-  {"keyword": "planificar mi día", "related": ["planificar mi día", "planificar día", "planificar trimestre", "planificar vacaciones", "planificar semana", "planificación de vacaciones", "planificación semanal"]},
-  {"keyword": "orgullo", "related": ["Día de Christopher Street", "Marcha Lésbica", "Europride", "Europride", "gay y lesbiana", "gay lesbiana", "desfile gay", "orgullo gay", "gaygler", "gayglers", "marcha lésbica", "desfile lésbico", "orgullo lésbico", "World Pride", "Worldpride"]},
-  {"keyword": "leer", "related": ["ebook", "lectura", "club de lectura"]},
-  {"keyword": "reparar", "related": ["bricolaje", "electricista", "reparación de nevera", "manitas", "fontanero"]},
-  {"keyword": "remo", "related": ["Head of the Charles", "Head of the River Race", "May Bumps"]},
-  {"keyword": "rugby siete", "related": ["rugby"]},
-  {"keyword": "correr", "related": ["trotar", "trote", "trotar", "esprintar", "atletismo"]},
-  {"keyword": "esquí", "related": ["esquí", "esquiar", "esquís"], "imageFile": "skiing2"},
-  {"keyword": "dormir", "related": ["siesta", "siesta", "durmiendo", "relajarse", "descansar"]},
-  {"keyword": "fútbol", "related": []},
-  {"keyword": "Día de San Patricio", "related": ["San Patricio"]},
-  {"keyword": "estudiar", "related": ["estudiar", "escribir carta"]},
-  {"keyword": "nadar", "related": ["buceo", "nadar", "natación", "natación sincronizada"]},
-  {"keyword": "tenis", "related": []},
-  {"keyword": "Día de Acción de Gracias", "related": []},
-  {"keyword": "triatlón", "related": []},
-  {"keyword": "Día de San Valentín", "related": ["Día de San Valentín", "Día de San Valentín"]},
-  {"keyword": "videollamada", "related": ["videollamada", "contactar con"]},
-  {"keyword": "videojuegos", "related": ["videojuego", "videojuegos", "videojuegos", "jugar videojuegos", "AGDQ", "Games Done Quick", "SGDQ"]},
-  {"keyword": "voleibol", "related": []},
-  {"keyword": "caminar", "related": ["caminata"]},
-  {"keyword": "pasear al perro", "related": ["cuidar perros", "paseador de perros", "pasear perros", "cuidar perros", "sacar al perro", "sacar al perro", "pasear al perro", "pasear al perro"]},
-  {"keyword": "boda", "related": ["víspera de boda", "fiesta de víspera de boda", "bodas"]},
+  {
+    "keyword": "fútbol americano",
+    "related": ["fútbol", "Super Bowl", "Super Bowl"],
+    "slug": "americanfootball"
+  },
+  {
+    "keyword": "arte",
+    "related": ["taller de arte", "talleres de arte", "taller de dibujo", "pintura", "taller de sketching"],
+    "slug": "art"
+  },
+  {
+    "keyword": "atletismo salto",
+    "related": ["Atletismo Salto", "Salto"],
+    "slug": "athleticsjumping"
+  },
+  {
+    "keyword": "fiesta de baby shower",
+    "related": ["baby shower", "maternidad"],
+    "slug": "babyshower"
+  },
+  {
+    "keyword": "bádminton",
+    "related": [],
+    "slug": "badminton"
+  },
+  {
+    "keyword": "béisbol",
+    "related": [],
+    "slug": "baseball"
+  },
+  {
+    "keyword": "baloncesto",
+    "related": [],
+    "slug": "basketball"
+  },
+  {
+    "keyword": "barbacoa",
+    "related": ["barbacoa", "barbacoa"],
+    "slug": "bbq"
+  },
+  {
+    "keyword": "facturas",
+    "related": ["pago"],
+    "slug": "bills"
+  },
+  {
+    "keyword": "cumpleaños",
+    "related": [],
+    "slug": "birthday"
+  },
+  {
+    "keyword": "bolos",
+    "related": [],
+    "slug": "bowling"
+  },
+  {
+    "keyword": "desayuno",
+    "related": ["brunch"],
+    "slug": "breakfast"
+  },
+  {
+    "keyword": "camping",
+    "related": [],
+    "slug": "camping"
+  },
+  {
+    "keyword": "Año Nuevo Chino",
+    "related": ["Año Nuevo Lunar Chino", "Años Nuevos Chinos", "Año Nuevo Chino", "Año Nuevo Vietnamita"],
+    "slug": "chinesenewyear"
+  },
+  {
+    "keyword": "cine",
+    "related": ["película", "películas"],
+    "slug": "cinema"
+  },
+  {
+    "keyword": "limpiar",
+    "related": ["limpiar la casa", "limpiar el apartamento", "limpiar la casa", "ordenar", "pasar la aspiradora", "aspirar"],
+    "slug": "clean"
+  },
+  {
+    "keyword": "escalada",
+    "related": ["búlder"],
+    "slug": "climbing"
+  },
+  {
+    "keyword": "café",
+    "related": ["cafés"],
+    "slug": "coffee"
+  },
+  {
+    "keyword": "concierto",
+    "related": ["conciertos", "concierto íntimo", "conciertos íntimos"],
+    "slug": "concert"
+  },
+  {
+    "keyword": "cocinar",
+    "related": ["cocinar la cena", "cocinar el almuerzo", "preparar comida", "hacer la cena", "preparar el almuerzo", "preparar comida", "preparar la cena", "preparar el almuerzo"],
+    "slug": "cooking"
+  },
+  {
+    "keyword": "críquet",
+    "related": ["partido de críquet", "juego de críquet", "competición de críquet"],
+    "slug": "cricket"
+  },
+  {
+    "keyword": "ciclismo",
+    "related": ["bicicleta", "bicicletas", "bici", "bicis", "ciclismo", "bici de montaña", "bicis de montaña", "ciclismo de montaña"],
+    "slug": "cycling"
+  },
+  {
+    "keyword": "ciclismo BMX",
+    "related": ["BMX"],
+    "slug": "cyclingbmx"
+  },
+  {
+    "keyword": "baile",
+    "related": ["ballet", "bailes"],
+    "slug": "dancing"
+  },
+  {
+    "keyword": "dentista",
+    "related": ["odontología", "odontología", "limpieza dental"],
+    "slug": "dentist"
+  },
+  {
+    "keyword": "cena",
+    "related": ["cena romántica", "cena romántica", "cenas", "cena romántica"],
+    "slug": "dinner"
+  },
+  {
+    "keyword": "bebidas",
+    "related": ["despedida de soltero", "despedida de soltero", "cerveza", "cervezas", "cóctel", "cócteles"],
+    "slug": "drinks"
+  },
+  {
+    "keyword": "hockey sobre césped",
+    "related": [],
+    "slug": "fieldhockey"
+  },
+  {
+    "keyword": "noche de juegos",
+    "related": ["juego de mesa", "juegos de mesa", "juego de mesa", "juegos de mesa", "noches de juegos"],
+    "slug": "gamenight"
+  },
+  {
+    "keyword": "Año Nuevo",
+    "related": ["Año Nuevo", "Años Nuevos", "Año Nuevo Parsi"],
+    "slug": "genericnewyear"
+  },
+  {
+    "keyword": "gimnasia",
+    "related": ["gimnasia artística", "gimnasia rítmica"],
+    "slug": "gymnastics"
+  },
+  {
+    "keyword": "golf",
+    "related": [],
+    "slug": "golf"
+  },
+  {
+    "keyword": "graduación",
+    "related": [],
+    "slug": "graduation"
+  },
+  {
+    "keyword": "gimnasio",
+    "related": ["crossfit", "centro de fitness", "clase de fitness", "evaluación física", "programa de fitness", "prueba física", "entrenamiento físico", "levantamiento de pesas", "halterofilia", "entrenamiento", "entrenamientos"],
+    "slug": "gym"
+  },
+  {
+    "keyword": "corte de pelo",
+    "related": ["pelo", "peluquero"],
+    "slug": "haircut"
+  },
+  {
+    "keyword": "Halloween",
+    "related": ["Víspera de Todos los Santos", "Víspera de Halloween", "Día de Halloween", "Halloween", "Halloween", "baile de Halloween"],
+    "slug": "halloween"
+  },
+  {
+    "keyword": "senderismo",
+    "related": ["excursión", "excursiones"],
+    "slug": "hiking"
+  },
+  {
+    "keyword": "Año Nuevo Islámico",
+    "related": ["Año Nuevo Hijri", "Año Nuevo Islámico"],
+    "slug": "islamicnewyear"
+  },
+  {
+    "keyword": "karate",
+    "related": ["Aikido", "Jujutsu", "Judo", "Jiu jitsu", "Jiu-jitsu", "Jujutsu", "artes marciales", "taekwondo"],
+    "slug": "karate"
+  },
+  {
+    "keyword": "kayak",
+    "related": ["canoa", "piragüismo"],
+    "slug": "kayaking"
+  },
+  {
+    "keyword": "recoger y dejar niños",
+    "related": ["vuelta al cole", "vuelta al cole", "vuelta al cole", "primer día de escuela"],
+    "slug": "kidspickupdropoff"
+  },
+  {
+    "keyword": "aprender instrumento",
+    "related": ["violonchelo", "coro", "ensayo de coro", "clarinete", "música clásica", "contrabajo", "corneta", "flauta", "clase de guitarra", "clase de música", "grupo musical", "oboe", "orquesta", "piano", "saxofón", "canto", "cuarteto de cuerda", "trombón", "trompeta", "tuba"],
+    "slug": "learninstrument"
+  },
+  {
+    "keyword": "almuerzo",
+    "related": ["almuerzo", "almuerzos"],
+    "slug": "lunch"
+  },
+  {
+    "keyword": "Martes de Carnaval",
+    "related": ["Martes Gordo", "Mardi Gras", "Martes de Carnaval"],
+    "slug": "mardigras"
+  },
+  {
+    "keyword": "masaje",
+    "related": ["masaje espalda", "masaje espalda", "masajes", "terapia de masaje"],
+    "slug": "massage"
+  },
+  {
+    "keyword": "Nowruz",
+    "related": ["Año Nuevo Persa"],
+    "slug": "nowruz"
+  },
+  {
+    "keyword": "clases en línea",
+    "related": ["aprender a programar"],
+    "slug": "onlineclasses"
+  },
+  {
+    "keyword": "ping pong",
+    "related": ["ping-pong", "pingpong", "tenis de mesa"],
+    "slug": "pingpong"
+  },
+  {
+    "keyword": "planificar mi día",
+    "related": ["planificar mi día", "planificar día", "planificar trimestre", "planificar vacaciones", "planificar semana", "planificación de vacaciones", "planificación semanal"],
+    "slug": "planmyday"
+  },
+  {
+    "keyword": "orgullo",
+    "related": ["Día de Christopher Street", "Marcha Lésbica", "Europride", "Europride", "gay y lesbiana", "gay lesbiana", "desfile gay", "orgullo gay", "gaygler", "gayglers", "marcha lésbica", "desfile lésbico", "orgullo lésbico", "World Pride", "Worldpride"],
+    "slug": "pride"
+  },
+  {
+    "keyword": "leer",
+    "related": ["ebook", "lectura", "club de lectura"],
+    "slug": "read"
+  },
+  {
+    "keyword": "reparar",
+    "related": ["bricolaje", "electricista", "reparación de nevera", "manitas", "fontanero"],
+    "slug": "repair"
+  },
+  {
+    "keyword": "remo",
+    "related": ["Head of the Charles", "Head of the River Race", "May Bumps"],
+    "slug": "rowing"
+  },
+  {
+    "keyword": "rugby",
+    "related": [],
+    "slug": "rugbysevens"
+  },
+  {
+    "keyword": "correr",
+    "related": ["trotar", "trote", "trotar", "esprintar", "atletismo"],
+    "slug": "running"
+  },
+  {
+    "keyword": "esquí",
+    "related": ["esquí", "esquiar", "esquís"],
+    "slug": "skiing2"
+  },
+  {
+    "keyword": "dormir",
+    "related": ["siesta", "siesta", "durmiendo", "relajarse", "descansar"],
+    "slug": "sleep"
+  },
+  {
+    "keyword": "fútbol",
+    "related": [],
+    "slug": "soccer"
+  },
+  {
+    "keyword": "Día de San Patricio",
+    "related": ["San Patricio"],
+    "slug": "saintpatricksday"
+  },
+  {
+    "keyword": "estudiar",
+    "related": ["estudiar", "escribir carta", "aprender"],
+    "slug": "studying"
+  },
+  {
+    "keyword": "nadar",
+    "related": ["buceo", "nadar", "natación", "natación sincronizada"],
+    "slug": "swimming"
+  },
+  {
+    "keyword": "tenis",
+    "related": [],
+    "slug": "tennis"
+  },
+  {
+    "keyword": "Día de Acción de Gracias",
+    "related": [],
+    "slug": "thanksgiving"
+  },
+  {
+    "keyword": "triatlón",
+    "related": [],
+    "slug": "triathlon"
+  },
+  {
+    "keyword": "Día de San Valentín",
+    "related": ["Día de San Valentín"],
+    "slug": "valentinesday"
+  },
+  {
+    "keyword": "videollamada",
+    "related": ["videollamada", "contactar con"],
+    "slug": "videocall"
+  },
+  {
+    "keyword": "videojuegos",
+    "related": ["videojuego", "videojuegos", "videojuegos", "jugar videojuegos", "AGDQ", "Games Done Quick", "SGDQ"],
+    "slug": "videogaming"
+  },
+  {
+    "keyword": "voleibol",
+    "related": [],
+    "slug": "volleyball"
+  },
+  {
+    "keyword": "caminar",
+    "related": ["caminata"],
+    "slug": "walk"
+  },
+  {
+    "keyword": "pasear al perro",
+    "related": ["cuidar perros", "paseador de perros", "pasear perros", "cuidar perros", "sacar al perro", "sacar al perro", "pasear al perro", "pasear al perro"],
+    "slug": "walkingdog"
+  },
+  {
+    "keyword": "boda",
+    "related": ["víspera de boda", "fiesta de víspera de boda", "bodas"],
+    "slug": "wedding"
+  },
   {
     "keyword": "Navidad",
     "related": ["Navidad", "brunch de Navidad", "cena de Navidad", "brunch de Nochebuena", "cena de Nochebuena", "almuerzo de Nochebuena", "comida de Nochebuena", "fiesta de Nochebuena", "almuerzo de Navidad", "comida de Navidad", "fiesta de Navidad", "Papá Noel", "Navidad", "brunch de Navidad", "cena de Navidad", "brunch de Nochebuena", "cena de Nochebuena", "almuerzo de Nochebuena", "comida de Nochebuena", "fiesta de Nochebuena", "almuerzo de Navidad", "comida de Navidad", "fiesta de Navidad", "brunch de Navidad", "cena de Navidad", "brunch de Nochebuena", "cena de Nochebuena", "almuerzo de Nochebuena", "comida de Nochebuena", "fiesta de Nochebuena", "almuerzo de Navidad", "comida de Navidad", "fiesta de Navidad"],
+    "slug": "xmas"
   },
-  {"keyword": "yoga", "related": []}
+  {
+    "keyword": "yoga",
+    "related": [],
+    "slug": "yoga"
+  }
 ]
