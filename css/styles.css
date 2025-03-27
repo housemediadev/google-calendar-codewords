@@ -166,6 +166,35 @@
   background-color: #2d2d2d;
 }
 
+/* Tutorial Card Styles */
+.steps {
+  padding: 1rem;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.step-number {
+  background-color: var(--primary-color);
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step-content {
+  font-size: 1.1rem;
+  color: #555;
+}
+
 /* Footer Styles */
 .footer {
   position: relative;
