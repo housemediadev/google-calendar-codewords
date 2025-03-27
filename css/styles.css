@@ -6,10 +6,17 @@
 }
 
 /* Search Container Styles */
-.search-container {
+.search-wrapper {
   position: sticky;
-  top: 1rem;
+  top: 0;
   z-index: 1000;
+  padding: 1rem;
+  background: hsl(0deg 0% 96% / 80%);
+  -webkit-backdrop-filter: saturate(200%) blur(30px);
+  backdrop-filter: saturate(200%) blur(30px);
+  background-color: hsla(0, 0%, 100%, .8) !important;
+  box-shadow: inset 0 0 1px 1px hsla(0, 0%, 100%, .9), 0 20px 27px 0 rgba(0, 0, 0, .05) !important;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 /* Search Input Styles */
