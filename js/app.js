@@ -56,7 +56,7 @@ class KeywordExplorer {
           supportedLngs: ['en', 'es'],
           debug: true,
           backend: {
-            loadPath: 'locale/translations/{{lng}}.json'
+            loadPath: 'locales/translations/{{lng}}.json'
           },
           interpolation: {
             escapeValue: false
@@ -108,7 +108,7 @@ class KeywordExplorer {
    */
   async loadKeywords() {
     try {
-      const response = await fetch(`locale/keywords/${i18next.language}.json`);
+      const response = await fetch(`locales/keywords/${i18next.language}.json`);
       const keywords = await response.json();
       this.keywordsData[i18next.language] = keywords;
     } catch (error) {
@@ -116,7 +116,7 @@ class KeywordExplorer {
 
       // Fallback to English if current language fails
       if (i18next.language !== 'en') {
-        const fallbackResponse = await fetch('locale/keywords/en.json');
+        const fallbackResponse = await fetch('locales/keywords/en.json');
         this.keywordsData[i18next.language] = await fallbackResponse.json();
       }
     }
