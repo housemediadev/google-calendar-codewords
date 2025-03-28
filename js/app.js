@@ -204,7 +204,7 @@ class KeywordExplorer {
 
       // Show related keywords if they exist
       if (keywordData.related && keywordData.related.length > 0) {
-        relatedKeywords.textContent = `${i18next.t('app.related')}: ${keywordData.related.join(', ')}`;
+        relatedKeywords.textContent = keywordData.related.join(', ');
         relatedKeywordsContainer.style.display = 'block';
       } else {
         relatedKeywordsContainer.style.display = 'none';
