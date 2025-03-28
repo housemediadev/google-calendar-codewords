@@ -30,12 +30,12 @@
   <div class="container mt-4">
     <div class="instructions">
       <div class="row g-0">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="./images/tutorial_en.png" class="img-fluid rounded-start h-100 object-fit-cover" data-i18n="[src]app.instructions.imageSrc">
         </div>
-        <div class="col-md-6 d-flex align-items-center">
+        <div class="col-lg-6 d-flex align-items-center px-lg-4">
           <div class="card-body">
-            <h3 class="card-title mb-4" data-i18n="app.instructions.title"></h3>
+            <h3 class="card-title mb-3" data-i18n="app.instructions.title"></h3>
             <div class="steps">
               <div class="step mb-3">
                 <div class="step-number">1</div>
@@ -48,6 +48,16 @@
               <div class="step mb-3">
                 <div class="step-number">3</div>
                 <div class="step-content" data-i18n="app.instructions.step3"></div>
+              </div>
+              <div class="step mb-3">
+                <a href="https://calendar.google.com/calendar/r/eventedit"
+                  class="btn btn-primary mt-2"
+                  data-i18n="[href]app.instructions.buttonLink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span data-i18n="app.instructions.buttonText"></span>
+                </a>
               </div>
             </div>
           </div>
@@ -97,9 +107,6 @@
   <script src="https://cdn.jsdelivr.net/npm/i18next@23.8.2/dist/umd/i18next.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.4.3/i18nextHttpBackend.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.2.0/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
-
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Application -->
   <script src="./js/app.js"></script>

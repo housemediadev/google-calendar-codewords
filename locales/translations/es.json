@@ -6,7 +6,9 @@
       "step1": "Abre Google Calendar y crea un nuevo evento",
       "step2": "En el título del evento, escribe la keyword deseada",
       "step3": "¡Listo! El evento se mostrará con el ícono correspondiente",
-      "imageSrc": "./images/tutorial_es.png"
+      "imageSrc": "./images/tutorial_es.png",
+      "buttonText": "Intenta en tu Google Calendar",
+      "buttonLink": "https://calendar.google.com/calendar/r/eventedit?text=Café+con+Daniel"
     },
     "searchPlaceholder": "Buscar palabras clave...",
     "related": "Relacionados"
