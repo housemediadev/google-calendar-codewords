@@ -368,5 +368,60 @@
     "keyword": "yoga",
     "related": [],
     "slug": "yoga"
+  },
+  {
+    "keyword": "interview",
+    "related": [],
+    "slug": "interview"
+  },
+  {
+    "keyword": "flight",
+    "related": [],
+    "slug": "flight"
+  },
+  {
+    "keyword": "restaurant",
+    "related": [],
+    "slug": "restaurant"
+  },
+  {
+    "keyword": "travel",
+    "related": [],
+    "slug": "travel"
+  },
+  {
+    "keyword": "hotel",
+    "related": [],
+    "slug": "hotel"
+  },
+  {
+    "keyword": "doctor",
+    "related": [],
+    "slug": "doctor"
+  },
+  {
+    "keyword": "vote",
+    "related": [],
+    "slug": "vote"
+  },
+  {
+    "keyword": "shopping",
+    "related": [],
+    "slug": "shopping"
+  },
+  {
+    "keyword": "delivery",
+    "related": [],
+    "slug": "delivery"
+  },
+  {
+    "keyword": "photography",
+    "related": [],
+    "slug": "photography"
+  },
+  {
+    "keyword": "party",
+    "related": [],
+    "slug": "party"
   }
 ]
