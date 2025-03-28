@@ -10,7 +10,6 @@
       "buttonText": "Intenta en tu Google Calendar",
       "buttonLink": "https://calendar.google.com/calendar/r/eventedit?text=Café+con+Daniel"
     },
-    "searchPlaceholder": "Buscar palabras clave...",
-    "related": "Relacionados"
+    "searchPlaceholder": "Buscar palabras clave..."
   }
 }
