@@ -20,17 +20,7 @@ git clone [repository-url]
 cd google-calendar-codewords
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
-```
-
-4. Open your browser and navigate to `http://localhost:8080`
+2. Open your browser and navigate to the `index.html` file in the project directory.
 
 ## Project Structure
 
