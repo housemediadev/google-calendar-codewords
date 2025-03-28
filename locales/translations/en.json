@@ -6,7 +6,7 @@
       "step1": "Open Google Calendar and create a new event",
       "step2": "In the event title, write the desired keyword",
       "step3": "Done! The event will be displayed with the corresponding icon",
-      "image": "./images/tutorial_en.png"
+      "imageSrc": "./images/tutorial_en.png"
     },
     "searchPlaceholder": "Search keywords...",
     "related": "Related"
