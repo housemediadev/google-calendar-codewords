@@ -1,11 +1,12 @@
 {
   "app": {
-    "title": "Explorador de Palabras Clave de Google Calendar",
+    "title": "Google Calendar Codewords",
     "instructions": {
       "title": "¿Cómo usar estas keywords?",
       "step1": "Abre Google Calendar y crea un nuevo evento",
       "step2": "En el título del evento, escribe la keyword deseada",
-      "step3": "¡Listo! El evento se mostrará con el ícono correspondiente"
+      "step3": "¡Listo! El evento se mostrará con el ícono correspondiente",
+      "image": "./images/tutorial_es.png"
     },
     "searchPlaceholder": "Buscar palabras clave...",
     "related": "Relacionados"

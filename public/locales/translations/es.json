@@ -1,0 +1,12 @@
+{
+  "app": {
+    "title": "Explorador de Palabras Clave de Google Calendar",
+    "instructions": {
+      "title": "Cómo Usar",
+      "step1": "Seleccione una palabra clave de la lista",
+      "step2": "Haga clic para agregarla a su evento de Google Calendar",
+      "step3": "El evento se categorizará automáticamente",
+      "imageSrc": "./images/tutorial_es.png"
+    }
+  }
+}

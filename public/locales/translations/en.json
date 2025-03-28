@@ -1,0 +1,12 @@
+{
+  "app": {
+    "title": "Google Calendar Keywords Explorer",
+    "instructions": {
+      "title": "How to Use",
+      "step1": "Select a keyword from the list",
+      "step2": "Click to add it to your Google Calendar event",
+      "step3": "The event will be automatically categorized",
+      "imageSrc": "./images/tutorial_en.png"
+    }
+  }
+}
