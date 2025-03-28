@@ -6,11 +6,9 @@ A web application that allows users to explore and search through Google Calenda
 ## Features
 
 - 🔍 Keyword search with real-time filtering
-- 🌐 Multi-language support (English and Spanish)
+- 🌐 Multi-language support
 - 📱 Responsive design for all devices
-- 🎨 Modern UI with smooth animations
-- 📱 Lazy loading for optimized performance
-- 🌓 Dark mode support
+- ⏳ Lazy loading for optimized performance
 
 ## Setup
 
@@ -20,17 +18,7 @@ git clone [repository-url]
 cd google-calendar-codewords
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
-```
-
-4. Open your browser and navigate to `http://localhost:8080`
+2. Open your browser and navigate to the `index.html` file in the project directory.
 
 ## Project Structure
 
@@ -47,6 +35,7 @@ google-calendar-codewords/
 │   └── translations/
 │       ├── en.json        # English translations
 │       └── es.json        # Spanish translations
+├── images/                # Image files
 └── index.html             # Main HTML file
 ```
 
@@ -59,23 +48,22 @@ google-calendar-codewords/
 - i18next for internationalization
 
 ## Keywords
-Add new keywords by modifying the JSON files in the `locale/keywords` directory. Each keyword should have the following structure:
+Add new keywords by modifying the JSON files in the `locales/keywords` directory. Each keyword should have the following structure:
 
 ```json
 {
-  "keyword": "example",
-  "imageFile": "optional_image_name",
-  "related": ["related1", "related2"],
-  "className": "optional-class-name"
-}
+  "keyword": "valentines day",
+  "related": ["valentine's day", "valentines"],
+  "slug": "valentinesday"
+},
 ```
 
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b feature/missing-keywords`)
+3. Commit your changes (`git commit -m 'Add some missing keywords'`)
+4. Push to the branch (`git push origin feature/missing-keywords`)
 5. Open a Pull Request
 
 ## License
