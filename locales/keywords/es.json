@@ -305,6 +305,11 @@
     "slug": "swimming"
   },
   {
+    "keyword": "tv",
+    "related": ["tv show", "tv serie", "tv series", "televisión", "televisión show", "televisión series"],
+    "slug": "tv"
+  },
+  {
     "keyword": "tenis",
     "related": [],
     "slug": "tennis"
