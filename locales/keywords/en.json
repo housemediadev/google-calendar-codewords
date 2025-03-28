@@ -385,9 +385,9 @@
     "slug": "restaurant"
   },
   {
-    "keyword": "travel",
-    "related": [],
-    "slug": "travel"
+    "keyword": "trip",
+    "related": ["travel"],
+    "slug": "trip"
   },
   {
     "keyword": "hotel",
