@@ -58,20 +58,7 @@ google-calendar-codewords/
 - Bootstrap 5
 - i18next for internationalization
 
-## Customization
-
-### Colors
-The application uses CSS variables for easy customization. Modify the colors in `:root` in [styles.css](cci:7://file:///home/bound3r/Development/housemedia/hm/google-calendar-codewords/css/styles.css:0:0-0:0):
-
-```css
-:root {
-  --primary-color: #4285f4;  /* Google's primary blue */
-  --secondary-color: #34a853; /* Google's green */
-  --accent-color: #ea4335;    /* Google's red */
-}
-```
-
-### Keywords
+## Keywords
 Add new keywords by modifying the JSON files in the `locale/keywords` directory. Each keyword should have the following structure:
 
 ```json
