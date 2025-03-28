@@ -1,11 +1,11 @@
-/* Global Variables */
+/* Base Styles */
 :root {
-  --primary-color: #4285f4;  /* Google's primary blue */
-  --secondary-color: #34a853; /* Google's green */
-  --accent-color: #ea4335;    /* Google's red */
+  --primary-color: #bbdefb;
+  --secondary-color: #c8e6c9;
+  --accent-color: #ffcdd2;
 }
 
-/* Search Container Styles */
+/* Layout and Structure */
 .search-wrapper {
   position: sticky;
   top: 0;
@@ -19,7 +19,8 @@
   border-bottom: 1px solid #f1f1f1;
 }
 
-/* Search Input Styles */
+/* Components */
+/* Search Input */
 #searchInput {
   border-radius: 2rem;
   padding: 1rem 1.5rem;
@@ -27,16 +28,13 @@
   transition: all 0.3s ease;
 }
 
-#searchInput:focus {
-  box-shadow: 0 4px 15px rgba(66,133,244,0.2);
-  border-color: var(--primary-color);
-}
-
-/* Card Styles */
+/* Card Component */
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.85rem;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -44,7 +42,7 @@
   box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
-/* Card Image Container */
+/* Card Image */
 .card-img-container {
   height: 160px;
   overflow: hidden;
@@ -52,12 +50,10 @@
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-/* Full Width Card */
 .full-width .card-img-container {
   height: 320px;
 }
 
-/* Keyword Image Styles */
 .keyword-image {
   width: 100%;
   height: 100%;
@@ -72,41 +68,7 @@
   transform: scale(1);
 }
 
-/* Lazy Loading Placeholder */
-.lazy {
-  background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%);
-  background-size: 20px 20px;
-  background-position: 0 0;
-  animation: placeholder 1.2s linear infinite;
-}
-
-/* Placeholder Animation */
-@keyframes placeholder {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -20px 0;
-  }
-}
-
-/* Animación de fade-in */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  50% {
-    opacity: 0.7;
-    transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* Card Body Styles */
+/* Card Body */
 .card-body {
   padding: 1rem;
 }
@@ -115,21 +77,12 @@
   margin-bottom: 0.75rem;
 }
 
-/* Related Keywords Styles */
-.related-keywords-container {
-  display: none;
-}
-
-.related-keywords-container.show {
-  display: block;
-}
-
 .related-keywords {
   color: #6c757d;
   margin: 0;
 }
 
-/* Navbar Styles */
+/* Navbar */
 .navbar {
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
@@ -143,34 +96,7 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-/* Responsive Grid Layout */
-@media (max-width: 768px) {
-  .card-img-container {
-    height: 140px;
-  }
-}
-
-/* Theme Switching Styles */
-[data-bs-theme="dark"] {
-  --primary-color: #bbdefb;
-  --secondary-color: #c8e6c9;
-  --accent-color: #ffcdd2;
-}
-
-[data-bs-theme="dark"] .card {
-  background-color: #1a1a1a;
-  border-color: #2d2d2d;
-}
-
-[data-bs-theme="dark"] .card-img-container {
-  background-color: #2d2d2d;
-}
-
-/* Tutorial Card Styles */
-.steps {
-  padding: 1rem;
-}
-
+/* Tutorial Card */
 .step {
   display: flex;
   align-items: flex-start;
@@ -178,7 +104,7 @@
 }
 
 .step-number {
-  background-color: var(--primary-color);
+  background-color: #0d6efd;
   color: white;
   width: 28px;
   height: 28px;
@@ -195,7 +121,15 @@
   color: #555;
 }
 
-/* Footer Styles */
+/* Interactive Elements */
+.lazy {
+  background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%);
+  background-size: 20px 20px;
+  background-position: 0 0;
+  animation: placeholder 1.2s linear infinite;
+}
+
+/* Footer */
 .footer {
   position: relative;
   bottom: 0;
@@ -209,5 +143,55 @@
 }
 
 .footer a:hover {
-  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Animations */
+@keyframes placeholder {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -20px 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-img-container {
+    height: 140px;
+  }
+}
+
+/* Theme Styles */
+[data-bs-theme="dark"] {
+  --primary-color: #bbdefb;
+  --secondary-color: #c8e6c9;
+  --accent-color: #ffcdd2;
+}
+
+[data-bs-theme="dark"] .card {
+  background-color: #1a1a1a;
+  border-color: #2d2d2d;
+}
+
+[data-bs-theme="dark"] .card-img-container {
+  background-color: #2d2d2d;
 }
