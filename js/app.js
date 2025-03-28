@@ -56,7 +56,7 @@ class KeywordExplorer {
           supportedLngs: ['en', 'es'],
           debug: true,
           backend: {
-            loadPath: 'locale/translations/{{lng}}.json'
+            loadPath: 'locales/translations/{{lng}}.json'
           },
           interpolation: {
             escapeValue: false
@@ -108,7 +108,7 @@ class KeywordExplorer {
    */
   async loadKeywords() {
     try {
-      const response = await fetch(`locale/keywords/${i18next.language}.json`);
+      const response = await fetch(`locales/keywords/${i18next.language}.json`);
       const keywords = await response.json();
       this.keywordsData[i18next.language] = keywords;
     } catch (error) {
@@ -116,7 +116,7 @@ class KeywordExplorer {
 
       // Fallback to English if current language fails
       if (i18next.language !== 'en') {
-        const fallbackResponse = await fetch('locale/keywords/en.json');
+        const fallbackResponse = await fetch('locales/keywords/en.json');
         this.keywordsData[i18next.language] = await fallbackResponse.json();
       }
     }
@@ -191,22 +191,14 @@ class KeywordExplorer {
     if (!keywordData) return;
 
     const clone = this.keywordTemplate.content.cloneNode(true);
-    const column = clone.querySelector('.col-12');
     const img = clone.querySelector('.keyword-image');
     const keywordText = clone.querySelector('.keyword-text');
     const relatedKeywordsContainer = clone.querySelector('.related-keywords-container');
     const relatedKeywords = clone.querySelector('.related-keywords');
 
     try {
-      let slug = keywordData.slug || keyword.replace(/\s+/g, '');
-
-      img.dataset.src = IMAGE_URL + IMAGE_PREFIX + slug + IMAGE_SUFFIX;
+      img.dataset.src = IMAGE_URL + IMAGE_PREFIX + keywordData.slug + IMAGE_SUFFIX;
       img.alt = keyword;
-
-      // Fallback to placeholder image if loading fails
-      img.onerror = () => {
-        img.src = 'https://placehold.co/448x192?text=' + encodeURIComponent(slug);
-      };
 
       keywordText.textContent = keyword;
 

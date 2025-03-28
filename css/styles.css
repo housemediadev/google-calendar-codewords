@@ -1,18 +1,26 @@
-/* Global Variables */
+/* Base Styles */
 :root {
-  --primary-color: #4285f4;  /* Google's primary blue */
-  --secondary-color: #34a853; /* Google's green */
-  --accent-color: #ea4335;    /* Google's red */
+  --primary-color: #bbdefb;
+  --secondary-color: #c8e6c9;
+  --accent-color: #ffcdd2;
 }
 
-/* Search Container Styles */
-.search-container {
+/* Layout and Structure */
+.search-wrapper {
   position: sticky;
-  top: 1rem;
+  top: 0;
   z-index: 1000;
+  padding: 1rem;
+  background: hsl(0deg 0% 96% / 80%);
+  -webkit-backdrop-filter: saturate(200%) blur(30px);
+  backdrop-filter: saturate(200%) blur(30px);
+  background-color: hsla(0, 0%, 100%, .8) !important;
+  box-shadow: inset 0 0 1px 1px hsla(0, 0%, 100%, .9), 0 20px 27px 0 rgba(0, 0, 0, .05) !important;
+  border-bottom: 1px solid #f1f1f1;
 }
 
-/* Search Input Styles */
+/* Components */
+/* Search Input */
 #searchInput {
   border-radius: 2rem;
   padding: 1rem 1.5rem;
@@ -20,16 +28,13 @@
   transition: all 0.3s ease;
 }
 
-#searchInput:focus {
-  box-shadow: 0 4px 15px rgba(66,133,244,0.2);
-  border-color: var(--primary-color);
-}
-
-/* Card Styles */
+/* Card Component */
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.85rem;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -37,7 +42,7 @@
   box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
-/* Card Image Container */
+/* Card Image */
 .card-img-container {
   height: 160px;
   overflow: hidden;
@@ -45,12 +50,10 @@
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-/* Full Width Card */
 .full-width .card-img-container {
   height: 320px;
 }
 
-/* Keyword Image Styles */
 .keyword-image {
   width: 100%;
   height: 100%;
@@ -65,7 +68,60 @@
   transform: scale(1);
 }
 
-/* Lazy Loading Placeholder */
+/* Card Body */
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.related-keywords {
+  color: #6c757d;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .btn {
+  transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Tutorial Card */
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.step-number {
+  background-color: #0d6efd;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step-content {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Interactive Elements */
 .lazy {
   background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%);
   background-size: 20px 20px;
@@ -73,7 +129,26 @@
   animation: placeholder 1.2s linear infinite;
 }
 
-/* Placeholder Animation */
+/* Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Animations */
 @keyframes placeholder {
   0% {
     background-position: 0 0;
@@ -83,7 +158,6 @@
   }
 }
 
-/* Animación de fade-in */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -99,51 +173,14 @@
   }
 }
 
-/* Card Body Styles */
-.card-body {
-  padding: 1rem;
-}
-
-.card-title {
-  margin-bottom: 0.75rem;
-}
-
-/* Related Keywords Styles */
-.related-keywords-container {
-  display: none;
-}
-
-.related-keywords-container.show {
-  display: block;
-}
-
-.related-keywords {
-  color: #6c757d;
-  margin: 0;
-}
-
-/* Navbar Styles */
-.navbar {
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.navbar .btn {
-  transition: all 0.3s ease;
-}
-
-.navbar .btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-/* Responsive Grid Layout */
+/* Responsive Design */
 @media (max-width: 768px) {
   .card-img-container {
     height: 140px;
   }
 }
 
-/* Theme Switching Styles */
+/* Theme Styles */
 [data-bs-theme="dark"] {
   --primary-color: #bbdefb;
   --secondary-color: #c8e6c9;
@@ -157,21 +194,4 @@
 
 [data-bs-theme="dark"] .card-img-container {
   background-color: #2d2d2d;
-}
-
-/* Footer Styles */
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  font-size: 0.9rem;
-}
-
-.footer a {
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: var(--primary-color);
 }

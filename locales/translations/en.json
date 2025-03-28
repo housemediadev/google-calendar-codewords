@@ -1,0 +1,16 @@
+{
+  "app": {
+    "title": "Google Calendar Codewords",
+    "instructions": {
+      "title": "How to use these keywords?",
+      "step1": "Open Google Calendar and create a new event",
+      "step2": "In the event title, write the desired keyword",
+      "step3": "Done! The event will be displayed with the corresponding icon",
+      "imageSrc": "./images/tutorial_en.png",
+      "buttonText": "Try in your Google Calendar",
+      "buttonLink": "https://calendar.google.com/calendar/r/eventedit?text=Coffee+with+Daniel"
+    },
+    "searchPlaceholder": "Search keywords...",
+    "related": "Related"
+  }
+}

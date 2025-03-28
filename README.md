@@ -40,7 +40,7 @@ google-calendar-codewords/
 │   └── styles.css          # Application styles
 ├── js/
 │   └── app.js              # Main application logic
-├── locale/
+├── locales/
 │   ├── keywords/
 │   │   ├── en.json        # English keywords
 │   │   └── es.json        # Spanish keywords

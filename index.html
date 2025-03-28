@@ -4,9 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explora y visualiza palabras clave de Google Calendar para optimizar tus eventos y programación">
+  <meta name="keywords" content="Google Calendar, palabras clave, visualización, eventos, programación">
+  <meta name="author" content="Housemedia">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://housemediadev.github.io/google-calendar-codewords/">
+  <meta property="og:title" content="Google Calendar Keywords Explorer">
+  <meta property="og:description" content="Explora y visualiza palabras clave de Google Calendar para optimizar tus eventos y programación">
+  <meta property="og:image" content="https://housemediadev.github.io/google-calendar-codewords/images/preview.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://housemediadev.github.io/google-calendar-codewords/">
+  <meta property="twitter:title" content="Google Calendar Keywords Explorer">
+  <meta property="twitter:description" content="Explora y visualiza palabras clave de Google Calendar para optimizar tus eventos y programación">
+  <meta property="twitter:image" content="https://housemediadev.github.io/google-calendar-codewords/images/preview.png">
+
   <title data-i18n="app.title">Google Calendar Keywords Explorer</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="./css/styles.css" as="style">
 </head>
 
 <body>
@@ -15,8 +35,8 @@
       <a class="navbar-brand" href="#" data-i18n="app.title">Google Calendar Codewords</a>
       <div class="d-flex align-items-center">
         <select class="form-select me-2" id="langSelect">
-          <option value="en">English</option>
-          <option value="es">Español</option>
+          <option value="en">🇺🇸 English</option>
+          <option value="es">🇪🇸 Español</option>
         </select>
         <a href="https://github.com/housemediadev/google-calendar-codewords" class="btn btn-link text-white" target="_blank" rel="noopener noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -27,12 +47,53 @@
     </div>
   </nav>
 
-  <main class="container my-4">
-    <div class="search-container mb-4">
+  <div class="container mt-4">
+    <div class="instructions">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <img src="./images/tutorial_en.png" class="img-fluid rounded-start h-100 object-fit-cover" data-i18n="[src]app.instructions.imageSrc">
+        </div>
+        <div class="col-lg-6 d-flex align-items-center px-lg-4">
+          <div class="card-body">
+            <h3 class="card-title mb-3" data-i18n="app.instructions.title"></h3>
+            <div class="steps">
+              <div class="step mb-3">
+                <div class="step-number">1</div>
+                <div class="step-content" data-i18n="app.instructions.step1"></div>
+              </div>
+              <div class="step mb-3">
+                <div class="step-number">2</div>
+                <div class="step-content" data-i18n="app.instructions.step2"></div>
+              </div>
+              <div class="step mb-3">
+                <div class="step-number">3</div>
+                <div class="step-content" data-i18n="app.instructions.step3"></div>
+              </div>
+              <div class="step mb-3">
+                <a href="https://calendar.google.com/calendar/r/eventedit"
+                  class="btn btn-primary mt-2"
+                  data-i18n="[href]app.instructions.buttonLink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span data-i18n="app.instructions.buttonText"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-wrapper">
+    <div class="container">
       <input type="search" id="searchInput" class="form-control form-control-lg"
         data-i18n="[placeholder]app.searchPlaceholder" placeholder="Search keywords...">
     </div>
+  </div>
 
+  <main class="container my-4">
     <div class="keywords-container">
       <div id="keywordsList" class="row g-3">
         <!-- Keywords will be dynamically inserted here -->
@@ -66,9 +127,6 @@
   <script src="https://cdn.jsdelivr.net/npm/i18next@23.8.2/dist/umd/i18next.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.4.3/i18nextHttpBackend.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.2.0/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
-
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Application -->
   <script src="./js/app.js"></script>
